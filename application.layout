@@ -254,7 +254,7 @@
                         </div>
                     </div> 
                     <div class="right_feature_box">
-                        <span class="feature_label">GIFT CARDS</span>   
+                        <span class="feature_label">IN THE NEWS</span>   
                         <div class="feature_box" id="feature_item">
                             <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 {%raw%}
