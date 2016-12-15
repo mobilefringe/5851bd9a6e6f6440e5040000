@@ -183,9 +183,8 @@
                 responsive:true,
                 zoomLimit: [0,10]
             });
-            drop_pin(map, region);
         }
-        function drop_pin(map, region){
+        function drop_pin(region){
             var coords = map.get_coords(region);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
