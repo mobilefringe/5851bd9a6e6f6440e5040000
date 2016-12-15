@@ -175,21 +175,19 @@
             
             
             var map = $('#mapsvg').mapSvg({
-                source: '/system/properties/svgmaps/000/000/120/original/SpectrumSquareMap_withoutname.svg?1452539445', 
+                source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
                 viewBox: ['stores_x5F_1_x5F_21_1_'],
                 disableAll: true,
                 height:612,
                 width:790,
                 regions: {
-                    
                     stores_x5F_1_x5F_21_1_:{
                     	tooltip: "<label class='store_name_map store_name_map_detail'>Chopped Leaf</label>",				
                         popover : "<label class='store_name_map store_name_map_detail'>Chopped Leaf</label>",
                         selected: true,
                         attr:{fill: 'black '}
         			},        	
-                    
                 },
                 tooltipsMode:'custom',
                 loadingText: "loading...",
