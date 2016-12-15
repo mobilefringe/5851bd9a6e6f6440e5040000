@@ -177,6 +177,7 @@
                 responsive:true,
                 zoomLimit: [0,10]
             });
+            drop_pin();
         }
         function drop_pin(){
             var coords = map.get_coords('stores_x5F_1_x5F_21_1_');
@@ -191,5 +192,6 @@
             }])
         }
         loadMallDataCached(renderAll); 
+        
     })
 </script>
