@@ -113,6 +113,7 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
+            console.log(store_details);
             
             renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
             renderStoreDetails("#map_container","#map_template", store_details, slug);
@@ -153,6 +154,11 @@
                 $('#employment').hide();
             }
             
+            var region = '{{store.svgmap_region}}'
+            if (region != ""){
+                drop_pin();     
+            }
+                    
             var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
