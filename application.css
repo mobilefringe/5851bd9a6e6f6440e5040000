@@ -1093,7 +1093,7 @@ a.btn-prime {
 
 .long_feature_box .feature_label p,
 .long_feature_label p {
-    font-size: 32px;
+    font-size: 2em;
     line-height: 1em;
     margin-top: 10px;
     text-transform: uppercase;
