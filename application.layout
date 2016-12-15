@@ -326,7 +326,7 @@
                     <div class="newsletter_box">
                         <form action=http://mobilefringe.createsend.com/t/d/s/duhrs/ method="post" id="subForm">
                             <label for="newsletter_box_id">
-                                <img id="newsletter_box_id" ALT="newsletter_box" src="https://www.mallmaverick.com/system/site_images/photos/000/000/867/original/icon_subscription.png?1382641709" />
+                                <i class="fa fa-envelope social_icon" aria-hidden="true"></i>
                                 SUBSCRIBE AND GET UPDATES
                             </label>                
                             <span>
@@ -336,11 +336,10 @@
                             <input id="fieldEmail" name=cm-duhrs-duhrs type="email" required placeholder="Your Email" />  
                             <span>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
-                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Spectrum Square
+                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Spectrum Square
                             </span>
-            				<br/>						
                             <button class="btn"/>Subscribe</button>                      
-                            <br/>
+                            <br />
             				<span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
                     </div>
