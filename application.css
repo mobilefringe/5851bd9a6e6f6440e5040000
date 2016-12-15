@@ -1759,6 +1759,9 @@ td.stores_pin{
     .container-fluid{
         padding:0 10px;
     }
+    .nav_container {
+        height: 46px;
+    }
     .nav_container hr {
         width: 95%;
     }
@@ -1768,7 +1771,7 @@ td.stores_pin{
     }
     
     #site_nav li button{
-        padding: 3px 10px;
+        padding: 3px 11px;
     }
     
     .container_body{
