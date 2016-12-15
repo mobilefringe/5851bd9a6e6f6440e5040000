@@ -1041,6 +1041,7 @@ a.btn-prime {
     width: 100%;
 }
 
+
 // .hour_box .feature_label {
 //     top: -15px;
 // }
@@ -1083,6 +1084,8 @@ a.btn-prime {
     top: 81%;
     height: 100%;
     opacity: .5;  
+    font-family:futura_condensed;
+    font-size: 1.5em;
     text-transform: uppercase;
 }
 
