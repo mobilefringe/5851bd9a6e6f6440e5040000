@@ -2100,6 +2100,14 @@ td.stores_pin{
 }
 
 /* ***Property CSS *** */
+#site_nav li button {
+    // font-family: futura_condensed;
+    // height: auto;
+    // padding: 3px 12px;
+    font-size: 1.25em;
+    // font-size: 0.95em\9;
+    // border-radius: 5px;
+}
 .store_row_name a {
     font-family: futura, futura_medium_light_ie;
     color: #371e17;
