@@ -1808,7 +1808,10 @@ td.stores_pin{
         right: 15px;
         width: 30%;
     }
-    
+    .long_feature_label {
+        padding-top: 0;
+        font-size: 1.2em;
+    }
     .feature_boxes{
         width: 70%;
     }
