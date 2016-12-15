@@ -56,7 +56,7 @@
                 renderPromotions("#store_promo_container","#store_promo_template", published_promos);
             }
             else{
-                $('#no_promos').show()
+                $('#no_promos').show();
             }
         }
         loadMallDataCached(renderAll); 
