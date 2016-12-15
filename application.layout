@@ -336,12 +336,11 @@
                             <input id="fieldEmail" name=cm-duhrs-duhrs type="email" required placeholder="Your Email" />  
                             <span>
                                 <label style="display:none" for="agree_terms">Subscribe</label>
-                                    <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Spectrum Square
-                                
+                                <input type="checkbox" class="info_check" id="agree_terms" /> I agree to receive newsletters from Spectrum Square
                             </span>
-            				<br />						
+            				<br/>						
                             <button class="btn"/>Subscribe</button>                      
-                            <br />
+                            <br/>
             				<span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
                         </form>
                     </div>
