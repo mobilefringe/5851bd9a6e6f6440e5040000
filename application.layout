@@ -341,7 +341,7 @@
                 
         		<div class="col-sm-12 col-md-8">   
                     <div class="nav_site_map hidden-xs">
-                        <label for="nav_site_map_link_id" >NAVIGATION</label>
+                        <label for="nav_site_map_link_id" >SITE MAP</label>
                         <div class="site_map_cols">
                             <div class="nav_sitemap_item">
                                 <span class="site_map_title">STORES</span>
@@ -389,53 +389,21 @@
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/pages/cornwall-parking-at-cornwall-centre' target='_self'>Parking Info</a>
                             </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/posts">BLOG</a>
-                                </span>
-                            </div>
+                            
                         </div>
                     </div>
                     <div class="line_break hidden-xs"></div>
-                    <div class="social_links hidden-xs">
-    		            <span>
-    		                <a href="//www.pinterest.com/cornwallcentre/" target="_blank">
-    		                    <i class="fa fa-pinterest social_icon" aria-hidden="true"></i>
-    		                </a>
-    		            </span>
-    		            <span>
-    		                <a href="//www.youtube.com/user/CornwallCentre" target="_blank">
-    		                    <i class="fa fa-youtube social_icon" aria-hidden="true"></i>
-		                    </a>
-	                    </span>
-    		            <span>
-    		                <a href="//plus.google.com/113773191865855064312" target="_blank">
-    		                    <i class="fa fa-google-plus-official social_icon" aria-hidden="true"></i>
-		                    </a>
-	                    </span>
-                        <span>
-                            <a href="https://www.instagram.com/cornwallcentre/" target="_blank">
-                                <i class="fa fa-instagram social_icon" aria-hidden="true"></i>
-                            </a>
-                        </span>
-                    </div>
                 </div>
                 <div class="line_break hidden-xs"></div>
         	</div>
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2015 Cornwall Centre | <a href="/pages/cornwall-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy; 2015 Spectrum Square | <a href="/pages/spectrumsquare-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="//www.20vic.com/" target="_blank">
-                <img ALT="20vic_logo" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465" />
+                <img ALT="20vic_logo" src="//aberdeenmall.ca/system/site_images/photos/000/000/775/original/20vic_logo.png?1381341465"/>
             </a>
-             
-            <form action="//aberdeen.us12.list-manage.com/subscribe/post-json?u=74012e50e53ebc5fb4534d4e7&amp;id=1819fc25ef&c=?" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank" novalidate style="display:none">
-                <input title="advice newsletter" class="newletter-hidden" id="mce-EMAIL" name="EMAIL" type="hidden" />
-                <input type="text" name="b_74012e50e53ebc5fb4534d4e7_1819fc25ef" tabindex="-1" value="">
-            </form>
-            <div id="fb-root"></div>
         </div>
     </footer>
 </body>
