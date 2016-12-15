@@ -160,18 +160,18 @@
             var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
-                viewBox: ['region'],
+                viewBox: ['stores_x5F_1_x5F_22_1_'],
                 disableAll: true,
                 height:612,
                 width:790,
-                // regions: {
-                    region:{
+                regions: {
+                    stores_x5F_1_x5F_22_1_:{
                     	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
                         popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
                         selected: true,
                         attr: {fill: 'black '}
         			},        	
-                // },
+                },
                 tooltipsMode:'custom',
                 loadingText: "loading...",
                 zoom: true,
