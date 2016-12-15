@@ -165,7 +165,7 @@
                 height:612,
                 width:790,
                 regions: {
-                    region = store_details.svgmap_region {
+                    region = store_details.svgmap_region: {
                     	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
                         popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
                         selected: true,
