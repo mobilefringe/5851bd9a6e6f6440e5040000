@@ -211,8 +211,7 @@
                 attrs: {
                     src:  'http://cdn.mallmaverick.com/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
                 }
-            }
-             ])
+            }])
         }
         loadMallDataCached(renderAll); 
     })
