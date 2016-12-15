@@ -7,6 +7,10 @@
     </div>
 </div>
 <div class="mobile_line_break"></div>
+<script type="text/javascript" src="/javascripts/mapsvg/jquery.js"></script>
+<script type="text/javascript" src="/javascripts/mapsvg/raphael.js"></script>
+<script type="text/javascript" src="/javascripts/mapsvg/jquery.mousewheel.js"></script>
+<script type="text/javascript" src="/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
 <script>
     $(document).ready(function(e){
         init(e);
@@ -16,24 +20,75 @@
             $(".mapper").prepend("<option disabled selected>Select a Store</option>");
 
             
-            $("#map_image").attr("src", getPNGMapURL())
-        		$('#map_image').smoothZoom({
-        		    width: 840,
-                    height: 500,
-        		    initial_ZOOM: 0,
-        			zoom_MIN: 0,
-        			zoom_MAX: 250,
-        			responsive: true,
-        		    responsive_maintain_ratio: true,
-        			zoom_BUTTONS_SHOW : 'YES',
-        			pan_BUTTONS_SHOW : 'NO',
-        			pan_LIMIT_BOUNDARY : 'NO',
-        			button_SIZE: 34,
-        			button_ALIGN: "top right",
-        			zoom_OUT_TO_FIT: "NO",
-        			container: 'zoom_container'
-        		});
-        	show_png_pin(".mapper", "#map_image");
+            var map = $('#mapsvg_store_list').mapSvg({
+        source: '/system/properties/svgmaps/000/000/120/original/SpectrumSquareMap_withoutname.svg?1452539445',    // Path to SVG map
+        colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
+        disableAll: true,
+        regions: {
+                
+                    
+                        "stores_x5F_1_x5F_15":{
+                            tooltip:"<div class='tooltip_div'><p class='tooltip_name'>Chairacters Hair & Makeup</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'>905.282.1551</p></div><div class='tooltip_promo_div'></div></span></div>",
+                        attr:{
+            					href:'/stores/spectrumsquare-chairacters-hair-makeup'
+        					}
+        				},
+        			
+        		
+                    
+                        "stores_x5F_1_x5F_21_1_":{
+                            tooltip:"<div class='tooltip_div'><p class='tooltip_name'>Chopped Leaf</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'></p></div><div class='tooltip_promo_div'></div></span></div>",
+                        attr:{
+            					href:'/stores/spectrumsquare-chopped-leaf'
+        					}
+        				},
+        			
+        		
+                    
+                        "stores_x5F_1_x5F_13_1_":{
+                            tooltip:"<div class='tooltip_div'><p class='tooltip_name'>Light Touch Med Spa </p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'></p></div><div class='tooltip_promo_div'></div></span></div>",
+                        attr:{
+            					href:'/stores/spectrumsquare-light-touch-med-spa'
+        					}
+        				},
+        			
+        		
+                    
+                        "stores_x5F_1_x5F_24_1_":{
+                            tooltip:"<div class='tooltip_div'><p class='tooltip_name'>Starbucks</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'>905.602.9722</p></div><div class='tooltip_promo_div'></div></span></div>",
+                        attr:{
+            					href:'/stores/spectrumsquare-starbucks'
+        					}
+        				},
+        			
+        		
+                    
+                        "stores_x5F_1_x5F_23_1_":{
+                            tooltip:"<div class='tooltip_div'><p class='tooltip_name'>Subway</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'>905.282.0733</p></div><div class='tooltip_promo_div'></div></span></div>",
+                        attr:{
+            					href:'/stores/spectrumsquare-subway'
+        					}
+        				},
+        			
+        		
+                    
+                        "stores_x5F_1_x5F_22_1_":{
+                            tooltip:"<div class='tooltip_div'><p class='tooltip_name'>Teriyaki Experience</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'>905.282.0550</p></div><div class='tooltip_promo_div'></div></span></div>",
+                        attr:{
+            					href:'/stores/spectrumsquare-teriyaki-experience'
+        					}
+        				},
+        			
+        		
+        },
+        tooltipsMode:'custom',
+        zoom:true,
+        zoomButtons: {'show': true, 'location': 'left'},
+        pan:true,
+        cursor:'pointer',
+        responsive:true,
+        zoomLimit: [0,10],
+    });  
         }
         loadMallDataCached(renderAll);
     })
