@@ -2217,9 +2217,9 @@ h1.page_title{
 
 
 
-@media(max-width:1000px){
- #site_nav li button{
-   padding:5px;
-   font-size:14px
- }
-}
+// @media(max-width:1000px){
+//  #site_nav li button{
+//   padding:5px;
+//   font-size:14px
+//  }
+// }
