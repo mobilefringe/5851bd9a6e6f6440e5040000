@@ -1096,6 +1096,7 @@ a.btn-prime {
     font-size: 0.5em;
     line-height: 1em;
     margin-top: 10px;
+    text-transform: uppercase;
 }
 
 .hours_day{
