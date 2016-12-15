@@ -2101,7 +2101,7 @@ td.stores_pin{
 
 /* ***Property CSS *** */
 #site_nav li button {
-    // font-family: futura_condensed;
+    font-family: futura_condensed;
     // height: auto;
     padding: 3px 12px;
     font-size: 1.25em;
