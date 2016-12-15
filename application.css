@@ -285,7 +285,7 @@ legend{
 
 #site_nav{
     position: relative;
-    height: 56px;
+    height: 96px;
 }
 
 
@@ -764,7 +764,7 @@ a.btn-nav {
     padding-bottom: 10px;
     z-index: 900;
     position: absolute;
-    top: -36px;
+    top: 0;
 }
 
 
