@@ -1032,7 +1032,7 @@ a.btn-prime {
     padding: 5px 10px 0;    
     background-color: transparent;
     height: 38px;   
-    font-family:futura_condensed;
+    font-family: inherit;
     font-size: 2em;
     // font-size: 1.3em\9;
     // position:absolute;    
@@ -1083,6 +1083,7 @@ a.btn-prime {
     top: 81%;
     height: 100%;
     opacity: .5;  
+    text-transform: uppercase;
 }
 
 .long_feature_box .feature_label label{
@@ -1093,10 +1094,9 @@ a.btn-prime {
 
 .long_feature_box .feature_label p,
 .long_feature_label p {
-    font-size: 2em;
+    font-size: 0.5em;
     line-height: 1em;
     margin-top: 10px;
-    text-transform: uppercase;
 }
 
 .hours_day{
