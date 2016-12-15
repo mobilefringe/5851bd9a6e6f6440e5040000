@@ -1080,6 +1080,7 @@ a.btn-prime {
 
 
 .long_feature_label{
+    padding: 17px 4% 0;
     position: absolute;
     top: 81%;
     height: 100%;
