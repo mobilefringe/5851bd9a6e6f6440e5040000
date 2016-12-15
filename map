@@ -24,7 +24,7 @@
 
             
             var map = $('#mapsvg_store_list').mapSvg({
-                source: '/system/properties/svgmaps/000/000/120/original/SpectrumSquareMap_withoutname.svg?1452539445',    // Path to SVG map
+                source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
                 disableAll: true,
                 regions: {
