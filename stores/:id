@@ -105,7 +105,7 @@
         </div>
     </div>
 </div> 
-<script src="//s3.amazonaws.com/kodekloud/sites/5841df6b6e6f640488010000/text/javascript/1479491696000/craftmap.js"></script>
+<script src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
 <script>
     $(document).ready(function(e){
         init(e);
@@ -154,18 +154,65 @@
                 $('#employment').hide();
             }
 
-            var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
-    		$('.demo1').craftmap({
-                image: {
-        			width: 840,
-    				height: 1221,
-    				name: 'imgMap'
-    			},
-    			map: {
-    				position: dimension
-    			}
-    		});
-          	$("#scroll_to_marker").click();
+    //         var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
+    // 		$('.demo1').craftmap({
+    //             image: {
+    //     			width: 840,
+    // 				height: 1221,
+    // 				name: 'imgMap'
+    // 			},
+    // 			map: {
+    // 				position: dimension
+    // 			}
+    // 		});
+    //       	$("#scroll_to_marker").click();
+          	
+    //       	var region = 'stores_x5F_1_x5F_21_1_'
+    //                 if (region != ""){
+    //                     drop_pin();     
+    //                 }
+    //             })
+            
+            
+            var map = $('#mapsvg').mapSvg({
+                source: '/system/properties/svgmaps/000/000/120/original/SpectrumSquareMap_withoutname.svg?1452539445', 
+                colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
+                viewBox: ['stores_x5F_1_x5F_21_1_'],
+                disableAll: true,
+                height:612,
+                width:790,
+                regions: {
+                    
+                    stores_x5F_1_x5F_21_1_:{
+                    	tooltip: "<label class='store_name_map store_name_map_detail'>Chopped Leaf</label>",				
+                        popover : "<label class='store_name_map store_name_map_detail'>Chopped Leaf</label>",
+                        selected: true,
+                        attr:{fill: 'black '}
+        			},        	
+                    
+                },
+                tooltipsMode:'custom',
+                loadingText: "loading...",
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'left' },
+                pan:true,
+                cursor:'pointer',
+                responsive:true,
+                zoomLimit: [0,10]
+            });
+        }
+        function drop_pin(){
+            var coords = map.get_coords('stores_x5F_1_x5F_21_1_');
+            var height = parseInt(coords["height"])
+            var width = parseInt(coords["width"])
+            var x_offset = (parseInt(width) / 2);
+            var y_offset = (parseInt(height) /2);
+            map.setMarks([{ xy: [coords["x"] - 22 + x_offset, coords["y"] - 55 + y_offset],
+                attrs: {
+                    src:  'http://cdn.mallmaverick.com/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
+                }
+            }
+             ])
         }
         loadMallDataCached(renderAll); 
     })
