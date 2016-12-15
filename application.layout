@@ -340,7 +340,7 @@
                         </form>
                     </div>
                 </div>
-                <div class="line_break "></div>
+                <div class="mobile_line_break"></div>
         		<div class="col-sm-12 col-md-8">   
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" >SITE MAP</label>
