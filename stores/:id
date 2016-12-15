@@ -166,17 +166,17 @@
                 height:612,
                 width:790,
                 regions: {
-                    // region:{
+                    region:{
                     	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
                         popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
                         selected: true,
-                        attr:{fill: 'black '}
-        // 			},        	
+                        attr: {fill: 'black '}
+        			},        	
                 },
                 tooltipsMode:'custom',
                 loadingText: "loading...",
                 zoom: true,
-                zoomButtons: {'show': true,'location': 'left' },
+                zoomButtons: {'show':true, 'location':'left' },
                 pan:true,
                 cursor:'pointer',
                 responsive:true,
