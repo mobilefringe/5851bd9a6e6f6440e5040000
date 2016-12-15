@@ -2111,7 +2111,7 @@ h1.page_title {
     padding-top: 5px !important;
 }
 
-.feature_label {
+.feature_label, .long_feature_label {
     background-color: black;
 }
     
