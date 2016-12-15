@@ -5,21 +5,6 @@
         <div class="overlay2" onclick="style.pointerEvents='none'"></div>
         <div id="mapsvg_store_list"></div>     
     </div>
-	
-	
-	
-	
-	<!--<select class="mapper" id="store_select_container">-->
-	<!--    <script id="store_select_template" type="x-tmpl-mustache/text">-->
- <!--           <option value="{{x_coordinate}},{{y_coordinate}},{{id}}" data-value="{{name}}">{{name}}</option>-->
- <!--       </script>-->
-	<!--</select>-->
-	<!--<div id="parent_div">-->
-	<!--	<div id="zoom_container"  >-->
-	<!--		<img alt="Aberdeen_directory_map_for_web" id="map_image" src="https://www.mallmaverick.com/system/properties/maps/000/000/029/original/Aberdeen_Directory_Map_for_Web.jpg?1458229826" />-->
-	<!--		<div class="landmarks" data-show-at-zoom="100" data-allow-drag="true"></div>-->
-	<!--	</div>-->
-	<!--</div>-->
 </div>
 <div class="mobile_line_break"></div>
 <script>
