@@ -2,7 +2,7 @@
     <div>
         <h1 class="page_title" id="store_promos">Retailer Promotions</h1>
         <hr>
-        <h3 id="store_promos" class="hidden_now">There are currently no store promotions available, please check back again later.</h3>
+        <h3 id="no_promos" class="hidden_now">There are currently no retailer promotions available, please check back again later.</h3>
         <div id="store_promo_container"> 
             <script id="store_promo_template" type="x-tmpl-mustache/text">
                 <div class="row-fluid store_promo">
@@ -24,7 +24,7 @@
             </script>
         </div>
         <div class="line_break">&nbsp;</div>
-        <h3 id="no_promos" class="hidden_now">There are currently no promotions available, please check back again later.</h3>
+        
     </div>
 </div>
 
