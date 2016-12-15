@@ -183,10 +183,10 @@
             });
             console.log(region);
             if (region != ""){
-                drop_pin();     
+                drop_pin(map, region);     
             }
         }
-        function drop_pin(region){
+        function drop_pin(map, region){
             var coords = map.get_coords(region);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
