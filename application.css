@@ -2109,6 +2109,11 @@ td.stores_pin{
 }
 
 /* ***Property CSS *** */
+.stores_table_headers{
+	background-color: black;
+	color: white;
+}
+
 .store_row_name a {
     font-family: futura, futura_medium_light_ie;
     color: #371e17;
