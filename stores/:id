@@ -154,6 +154,7 @@
             }
             
             var region = store_details.svgmap_region;
+            var store_region = store_details.svgmap_region;
             var store_name = store_details.name;
             
                     
