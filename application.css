@@ -596,9 +596,12 @@ legend{
     padding: 10px 25px;
 }
 
-.stores_table_headers{
-	background-color: black;
-	color:white;
+.stores_table_headers {
+    padding-top: 6px;
+    padding-left: 12px;
+    height: 36px;
+    text-align: left;
+    font-size: 14pt;
 }
 
 .stores_table_headers .pull-right {
