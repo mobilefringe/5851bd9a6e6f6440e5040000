@@ -2114,6 +2114,10 @@ h1.page_title {
 .feature_label, .long_feature_label {
     background-color: black;
 }
+
+.long_feature_label {
+    opacity: .9;
+}
     
 #facebook_image_id{
     display:none;
