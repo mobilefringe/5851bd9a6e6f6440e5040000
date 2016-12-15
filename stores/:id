@@ -113,7 +113,6 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
-            console.log(store_details);
             
             renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
             renderStoreDetails("#map_container","#map_template", store_details, slug);
@@ -153,26 +152,6 @@
             else{
                 $('#employment').hide();
             }
-
-    //         var dimension = (store_details.x_coordinate - 460)  + " " + (store_details.y_coordinate - 230);
-    // 		$('.demo1').craftmap({
-    //             image: {
-    //     			width: 840,
-    // 				height: 1221,
-    // 				name: 'imgMap'
-    // 			},
-    // 			map: {
-    // 				position: dimension
-    // 			}
-    // 		});
-    //       	$("#scroll_to_marker").click();
-          	
-    //       	var region = 'stores_x5F_1_x5F_21_1_'
-    //                 if (region != ""){
-    //                     drop_pin();     
-    //                 }
-    //             })
-            
             
             var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
@@ -207,7 +186,7 @@
             var y_offset = (parseInt(height) /2);
             map.setMarks([{ xy: [coords["x"] - 22 + x_offset, coords["y"] - 55 + y_offset],
                 attrs: {
-                    src:  'http://cdn.mallmaverick.com/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
+                    src:  '//mallmaverick.cdn.speedyrails.net/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
                 }
             }])
         }
