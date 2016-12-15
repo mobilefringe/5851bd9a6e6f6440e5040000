@@ -225,10 +225,10 @@
                         <button class="btn-nav" data-toggle="dropdown">ABOUT US</button>                                                     
                         <ul class="dropdown-menu" style="right:0px; left:auto;">                            
                             <li>
-                                <a class="nav_a" href='/pages/spectrumsquare-sustainability' target='_self'><span>Sustainability</span></a>                                
+                                <a class="nav_a" href='/pages/spectrumsquare-sustainability' target='_self'><span>Sustainability</span></a>              
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/spectrumsquare-sustainability' target='_self'><span>About Spectrum SQ</span></a>                                
+                                <a class="nav_a" href='/pages/spectrumsquare-sustainability' target='_self'><span>About Spectrum SQ</span></a>           
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/spectrumsquare-about-20-vic-management' target='_self'><span>About 20 VIC Management</span></a>                              
