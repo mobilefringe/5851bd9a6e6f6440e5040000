@@ -179,7 +179,7 @@
             });
             drop_pin(map);
         }
-        function drop_pin(){
+        function drop_pin(map){
             var coords = map.get_coords('stores_x5F_1_x5F_21_1_');
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
