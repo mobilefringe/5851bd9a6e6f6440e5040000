@@ -183,10 +183,10 @@
                 responsive:true,
                 zoomLimit: [0,10]
             });
-            drop_pin(map);
+            drop_pin(map, region);
         }
-        function drop_pin(map){
-            var coords = map.get_coords('stores_x5F_1_x5F_21_1_');
+        function drop_pin(map, region){
+            var coords = map.get_coords(region);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
             var x_offset = (parseInt(width) / 2);
