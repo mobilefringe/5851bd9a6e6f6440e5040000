@@ -163,7 +163,7 @@
                 </a>
                 <ul>                  
                     <li class="dropdown ">
-                        <button class="btn-nav" data-toggle="dropdown">STORES</button>                                                     
+                        <button class="btn-nav" data-toggle="dropdown">RETAILERS</button>                                                     
                         <ul class="dropdown-menu">                            
                             <li>
                                 <a class="nav_a" href='/stores' target='_self'><span>Store Directory</span></a>                                
@@ -174,43 +174,70 @@
                         </ul>
                     </li>               
                     <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/promotions'">PROMOTIONS</button>
+                        <button class="btn-nav" onclick="window.location.href='/pages/spectrumsquare-office-leasing'">OFFICE LEASING</button>
                     </li>
                     <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/events'">EVENTS</button>
+                        <button class="btn-nav" onclick="window.location.href='/pages/spectrumsquare-the-eatery-leasing'">THE EATERY LEASING</button>
                     </li>
-                    <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/pages/cornwall-guest-services'">GUEST SERVICES</button>
+                    <li class="dropdown ">
+                        <button class="btn-nav" data-toggle="dropdown">MEDIA GALLERY</button>                                                     
+                        <ul class="dropdown-menu">                            
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-in-the-news' target='_self'><span>In the News</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-the-building' target='_self'><span>The Building</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-the-eatery' target='_self'><span>The Eatery</span></a>                     
+                            </li>
+                        </ul>
                     </li>            
-                    <li>                        
-                        <button class="btn-nav" onclick="window.location.href='/jobs'">CAREERS</button>
-                    </li>             
+                    <li class="dropdown ">
+                        <button class="btn-nav" data-toggle="dropdown">EVENTS & PROMOTIONS</button>                                                     
+                        <ul class="dropdown-menu">                            
+                            <li>
+                                <a class="nav_a" href='/events' target='_self'><span>Special Events</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/promotions' target='_self'><span>Retailer Promotions</span></a>                                
+                            </li>
+                        </ul>
+                    </li> 
+                    <li class="dropdown ">
+                        <button class="btn-nav" data-toggle="dropdown">VISITING US</button>                                                     
+                        <ul class="dropdown-menu">                            
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-location' target='_self'><span>Location</span></a>                          
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-directions' target='_self'><span>Directions</span></a>                      
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-hours' target='_self'><span>Hours</span></a>                                
+                            </li>
+                            <li>
+                                <a class="nav_a" href='/pages/spectrumsquare-accessibility' target='_self'><span>Accessibility</span></a>                
+                            </li>
+                        </ul>
+                    </li> 
                     <li class="dropdown ">
                         <button class="btn-nav" data-toggle="dropdown">ABOUT US</button>                                                     
                         <ul class="dropdown-menu" style="right:0px; left:auto;">                            
                             <li>
-                                <a class="nav_a" href='/hours' target='_self'><span>Shopping Hours</span></a>                                
+                                <a class="nav_a" href='/pages/spectrumsquare-sustainability' target='_self'><span>Sustainability</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-leasing' target='_self'><span>Leasing</span></a>                                
+                                <a class="nav_a" href='/pages/spectrumsquare-sustainability' target='_self'><span>About Spectrum SQ</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-mall-info' target='_self'><span>Mall Info</span></a>                              
+                                <a class="nav_a" href='/pages/spectrumsquare-about-20-vic-management' target='_self'><span>About 20 VIC Management</span></a>                              
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-accessibility' target='_self'><span>Accessibility</span></a>                      
+                                <a class="nav_a" href='/pages/spectrumsquare-hoopp' target='_self'><span>About HOOPP</span></a>                      
                             </li>
                             <li>
-                                <a class="nav_a" href='/pages/cornwall-community-wifi' target='_self'><span>Community Relations</span></a>              
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/pages/cornwall-contact-us' target='_self'><span>Contact Us</span></a>                            
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/pages/cornwall-security' target='_self'><span>Security</span></a>                                
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/pages/cornwall-parking-at-cornwall-centre' target='_self'><span>Parking Info</span> </a>        
+                                <a class="nav_a" href='/pages/spectrumsquare-contact-us' target='_self'><span>Contact Us</span></a>              
                             </li>
                         </ul>
                     </li>
