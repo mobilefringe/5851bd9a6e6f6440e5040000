@@ -1587,6 +1587,7 @@ td.stores_pin{
     text-decoration: none;
 }
 .page_body img {
+    margin-bottom: 10px;
     max-width: 100%;
     max-height: 100%;
 }
