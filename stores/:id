@@ -1,18 +1,5 @@
 <div class="map_div" id="mapsvg"></div>
-<!--<div id="map_container">-->
-<!--    <script id="map_template" type="x-tmpl-mustache/text">-->
-<!--        <div class="row-fluid">-->
-<!--            <div class="map">-->
-<!--            	<div class="demo1">-->
-<!--                    <img src="//www.mallmaverick.com/system/properties/maps/000/000/024/original/CORNC-0176-Map_only_CS5.jpg?1458074056" class="imgMap" id="map_image" />        		-->
-<!--            		<div class="marker" id='scroll_to_marker' data-coords="{{map_x_coordinate}}, {{map_y_coordinate}}">{{name}}</div>	-->
-<!--            	</div>-->
-<!--            </div>-->
-<!--        </div>-->
-<!--    </script>-->
-<!--</div>-->
 <div class="line_break"></div>
-
 <div class="store_details">
     <div id="store_details_container">
         <script id="store_details_template" type="x-tmpl-mustache/text">
@@ -167,7 +154,7 @@
                 height:612,
                 width:790,
                 regions: {
-                    stores_x5F_1_x5F_23_1_:{
+                    getStoreDetailsBySlug(slug).svgmap_region: {
                     	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
                         popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
                         selected: true,
