@@ -24,7 +24,7 @@
                 disableAll: true,
                 regions: {
                     store_region: {
-                        tooltip:"<div class='tooltip_div'><p class='tooltip_name'>" + store_name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='{{3999 | get_image_url}}'/><p class='tooltip_phone'>" store_phone "</p></div>{% assign store_promo = store.current_promotions | size %}<div class='tooltip_promo_div'>{% if store_promo > 0%}<img class='tooltip_promo_icon' src='{{4000 | get_image_url}}' /><p class='tooltip_promo'>{{store_promo}}</p>{% endif %}</div></span></div>",
+                        tooltip:"<div class='tooltip_div'><p class='tooltip_name'>" + store_name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='{{3999 | get_image_url}}'/><p class='tooltip_phone'>" + store_phone + "</p></div>{% assign store_promo = store.current_promotions | size %}<div class='tooltip_promo_div'>{% if store_promo > 0%}<img class='tooltip_promo_icon' src='{{4000 | get_image_url}}' /><p class='tooltip_promo'>{{store_promo}}</p>{% endif %}</div></span></div>",
                     attr:{
         					href:'/stores/' + store_slug;
     					}
