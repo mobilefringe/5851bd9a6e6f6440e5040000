@@ -12,7 +12,7 @@
     $(document).ready(function(e){
         // init(e);
         function renderAll(){
-            var stores = getStoreList();
+            var stores = getStoresList();
             $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
