@@ -45,7 +45,7 @@
                 cursor:'pointer',
                 responsive:true,
                 zoomLimit: [0,10],
-                viewBox:[region]
+                viewBox:[reg]
             });
             map.setViewBox(store_details.svgmap_region);
             map.selectRegion(store_details.svgmap_region);
