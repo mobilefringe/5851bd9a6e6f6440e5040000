@@ -12,41 +12,33 @@
     $(document).ready(function(e){
         // init(e);
         function renderAll(){
-            regions = {};
             var stores = getStoresList();
-            $.each(stores, function(key, val) {
-                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
-                    obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='https://www.mallmaverick.com/system/site_images/photos/000/003/999/original/call.png?1410900748'/><p class='tooltip_phone'>905.282.1551</p></div><div class='tooltip_promo_div'></div></span></div>"
-                    obj["attr"] = {}
-                    obj["attr"]["href"] = "/stores/" + val.slug
-                    regions[val.svgmap_region] = obj
-                }
-            });
-            load_map(regions, stores);
-        }
-        loadMallDataCached(renderAll);
-        
-        function load_map(reg, stores){
-            this_region = {};
-            this_region = stores.svgmap_region;
-            map = $('#mapsvg_store_detail').mapSvg({
-                source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
+            console.log(stores);
+            var map = $('#mapsvg_store_list').mapSvg({
+                source: '{{site.property.svgmap_file_path}}',    // Path to SVG map
+                colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
                 disableAll: true,
-                height: 612,
-                width: 790,
-                regions: reg,
+                regions: {
+                        {% for store in stores %}
+                            {% if store.svgmap_region != nil %}
+                                "{{ store.svgmap_region }}":{
+                                    tooltip:"<div class='tooltip_div'><p class='tooltip_name'>{{store.name}}</p>{% if store.store_front_url contains 'original/missing.png' %}{% else %}<img class='tooltip_image' src='{{store.store_front_url}}'/>{% endif %}<span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='{{3999 | get_image_url}}'/><p class='tooltip_phone'>{{store.phone}}</p></div>{% assign store_promo = store.current_promotions | size %}<div class='tooltip_promo_div'>{% if store_promo > 0%}<img class='tooltip_promo_icon' src='{{4000 | get_image_url}}' /><p class='tooltip_promo'>{{store_promo}}</p>{% endif %}</div></span></div>",
+                                attr:{
+                    					href:'/stores/{{store.slug}}'
+                					}
+                				},
+                			{% endif %}
+                		{% endfor %}
+                },
                 tooltipsMode:'custom',
-                loadingText: "loading...",
-                zoom: true,
-                zoomButtons: {'show': false,'location': 'left' },
+                zoom:true,
+                zoomButtons: {'show': true, 'location': 'left'},
                 pan:true,
                 cursor:'pointer',
                 responsive:true,
                 zoomLimit: [0,10],
-                viewBox:[reg]
             });
         }
+        loadMallDataCached(renderAll);
     })
 </script>
