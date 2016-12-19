@@ -12,6 +12,7 @@
     $(document).ready(function(e){
         // init(e);
         function renderAll(){
+            var store_details = getStoreDetailsBySlug(slug);
             regions = {};
             var stores = getStoresList();
             $.each(stores, function(key, val) {
