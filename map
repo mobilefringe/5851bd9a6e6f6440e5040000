@@ -14,30 +14,30 @@
         function renderAll(){
             var stores = getStoresList();
             console.log(stores);
-            var map = $('#mapsvg_store_list').mapSvg({
-                source: '{{site.property.svgmap_file_path}}',    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
-                disableAll: true,
-                regions: {
-                        {% for store in stores %}
-                            {% if store.svgmap_region != nil %}
-                                "{{ store.svgmap_region }}":{
-                                    tooltip:"<div class='tooltip_div'><p class='tooltip_name'>{{store.name}}</p>{% if store.store_front_url contains 'original/missing.png' %}{% else %}<img class='tooltip_image' src='{{store.store_front_url}}'/>{% endif %}<span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='{{3999 | get_image_url}}'/><p class='tooltip_phone'>{{store.phone}}</p></div>{% assign store_promo = store.current_promotions | size %}<div class='tooltip_promo_div'>{% if store_promo > 0%}<img class='tooltip_promo_icon' src='{{4000 | get_image_url}}' /><p class='tooltip_promo'>{{store_promo}}</p>{% endif %}</div></span></div>",
-                                attr:{
-                    					href:'/stores/{{store.slug}}'
-                					}
-                				},
-                			{% endif %}
-                		{% endfor %}
-                },
-                tooltipsMode:'custom',
-                zoom:true,
-                zoomButtons: {'show': true, 'location': 'left'},
-                pan:true,
-                cursor:'pointer',
-                responsive:true,
-                zoomLimit: [0,10],
-            });
+            // var map = $('#mapsvg_store_list').mapSvg({
+            //     source: '{{site.property.svgmap_file_path}}',    // Path to SVG map
+            //     colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
+            //     disableAll: true,
+            //     regions: {
+            //             {% for store in stores %}
+            //                 {% if store.svgmap_region != nil %}
+            //                     "{{ store.svgmap_region }}":{
+            //                         tooltip:"<div class='tooltip_div'><p class='tooltip_name'>{{store.name}}</p>{% if store.store_front_url contains 'original/missing.png' %}{% else %}<img class='tooltip_image' src='{{store.store_front_url}}'/>{% endif %}<span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src='{{3999 | get_image_url}}'/><p class='tooltip_phone'>{{store.phone}}</p></div>{% assign store_promo = store.current_promotions | size %}<div class='tooltip_promo_div'>{% if store_promo > 0%}<img class='tooltip_promo_icon' src='{{4000 | get_image_url}}' /><p class='tooltip_promo'>{{store_promo}}</p>{% endif %}</div></span></div>",
+            //                     attr:{
+            //         					href:'/stores/{{store.slug}}'
+            //     					}
+            //     				},
+            //     			{% endif %}
+            //     		{% endfor %}
+            //     },
+            //     tooltipsMode:'custom',
+            //     zoom:true,
+            //     zoomButtons: {'show': true, 'location': 'left'},
+            //     pan:true,
+            //     cursor:'pointer',
+            //     responsive:true,
+            //     zoomLimit: [0,10],
+            // });
         }
         loadMallDataCached(renderAll);
     })
