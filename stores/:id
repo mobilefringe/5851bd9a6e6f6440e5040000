@@ -141,9 +141,6 @@
             }
             
             var region = store_details.svgmap_region;
-            if (region != ""){
-                drop_pin(map, region);     
-            }
             var store_name = store_details.name;
             var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
@@ -169,6 +166,10 @@
                 responsive:true,
                 zoomLimit: [0,10]
             });
+            
+            if (region != ""){
+                drop_pin(map, region);     
+            }
         }
 
         function drop_pin(map, region){
