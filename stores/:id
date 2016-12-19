@@ -174,11 +174,11 @@
             });
             
             if (region != ""){
-                drop_pin(map, region);     
+                drop_pin(map, region, store_name);     
             }
         }
         
-        function drop_pin(map, region){
+        function drop_pin(map, region, store_name){
             var coords = map.get_coords(region);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
