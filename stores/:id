@@ -174,11 +174,11 @@
             });
             
             if (region != ""){
-                drop_pin(map, region, store_name);     
+                drop_pin(map, region);     
             }
         }
         
-        function drop_pin(map, region, store_name){
+        function drop_pin(map, region){
             var coords = map.get_coords(region);
             var height = parseInt(coords["height"])
             var width = parseInt(coords["width"])
@@ -187,10 +187,6 @@
             map.setMarks([{ xy: [coords["x"] - 22 + x_offset, coords["y"] - 55 + y_offset],
                 attrs: {
                     src:  '//mallmaverick.cdn.speedyrails.net/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
-                    tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
-                    popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
-                    selected: true,
-                    attr: {fill: 'black '}
                 }
             }])
         }
