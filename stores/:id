@@ -156,7 +156,7 @@
                 height:612,
                 width:790,
                 regions: {
-                    store_region:{
+                    store_region: {
                     	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
                         popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
                         selected: true,
