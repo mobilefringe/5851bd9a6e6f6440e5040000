@@ -149,7 +149,7 @@
                     
             var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
+                // colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
                 viewBox: [region],
                 disableAll: true,
                 height:612,
