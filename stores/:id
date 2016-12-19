@@ -142,7 +142,7 @@
             
             var region = store_details.svgmap_region;
             if (region != ""){
-                drop_pin();     
+                drop_pin(map, region);     
             }
             var store_name = store_details.name;
             var map = $('#mapsvg').mapSvg({
