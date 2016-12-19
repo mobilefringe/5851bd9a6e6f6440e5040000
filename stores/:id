@@ -141,43 +141,36 @@
             }
             
             var region = store_details.svgmap_region;
-            console.log(region);
-            
-            
-            var store_region = store_details.svgmap_region;
-            console.log(store_region);
-            var store_name = store_details.name;
-            
-            var map = $('#mapsvg').mapSvg({
-                source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
-                viewBox: ['region'],
-                disableAll: true,
-                height:612,
-                width:790,
-                regions: {
-                    store_region: {
-                    	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
-                        popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
-                        selected: true,
-                        attr: {fill: 'black '}
-        			},        	
-                },
-                tooltipsMode:'custom',
-                loadingText: "loading...",
-                zoom: true,
-                zoomButtons: {'show':true, 'location':'left' },
-                pan:true,
-                cursor:'pointer',
-                responsive:true,
-                zoomLimit: [0,10]
-            });
-            
             if (region != ""){
-                drop_pin(map, region);     
+                drop_pin();     
             }
         }
         
+        var map = $('#mapsvg').mapSvg({
+            source: getSVGMapURL(),    // Path to SVG map
+            colors: {stroke: '#aaaaaa', selected: '#f57b2b', hover: "#00254b"},
+            viewBox: ['region'],
+            disableAll: true,
+            height:612,
+            width:790,
+            regions: {
+                store_region: {
+                	tooltip: "<label class='store_name_map store_name_map_detail'>" + store_name +"</label>",				
+                    popover : "<label class='store_name_map store_name_map_detail'>" + store_name + "</label>",
+                    selected: true,
+                    attr: {fill: 'black '}
+    			},        	
+            },
+            tooltipsMode:'custom',
+            loadingText: "loading...",
+            zoom: true,
+            zoomButtons: {'show':true, 'location':'left' },
+            pan:true,
+            cursor:'pointer',
+            responsive:true,
+            zoomLimit: [0,10]
+        });
+            
         function drop_pin(map, region){
             var coords = map.get_coords(region);
             var height = parseInt(coords["height"])
