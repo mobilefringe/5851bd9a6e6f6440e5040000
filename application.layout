@@ -81,7 +81,7 @@
                     </button>
                     <ul class="dropdown-menu bottom">                                
                         <li class="mobile_menu_header" >
-                            <a href='' >STORES</a>
+                            <a>RETAILERS</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/stores'>Store Directory</a>
@@ -89,48 +89,66 @@
                         <li class="mobile_menu_item">
                             <a href='/map'>Shopping Map</a>
                         </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/promotions' >PROMOTIONS</a>
+                        <li class="mobile_menu_header">
+                            <a href='/pages/spectrumsquare-office-leasing'>OFFICE LEASING</a>
                         </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/events' >EVENTS</a>
+                        <li class="mobile_menu_header">
+                            <a href='/pages/spectrumsquare-the-eatery-leasing'>THE EATERY LEASING</a>
                         </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/pages/cornwall-guest-services' >GUEST SERVICES</a>
-                        </li>      
-                        <li class="mobile_menu_header" >
-                            <a href='/jobs' >CAREERS</a>
-                        </li>         
-                        <li class="mobile_menu_header" >
-                            <a href='' >ABOUT US</a>
+                        <li class="mobile_menu_header">
+                            <a>MEDIA GALLERY</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/hours'>Shopping Hours</a>
+                            <a href='/pages/spectrumsquare-in-the-news'>In the News</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-leasing'>Leasing</a>
+                            <a href='/pages/spectrumsquare-the-building'>The Building</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-mall-info'>Mall Info</a>
+                            <a href='/pages/spectrumsquare-the-eatery'>The Eatery</a>
+                        </li>
+                        <li class="mobile_menu_header">
+                            <a>EVENTS & PROMOTIONS</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/pages/cornwall-accessibility'>Accessibility</a>
+                            <a href='/events' >Special Events</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/promotions' >Retailer Promotions</a>
+                        </li>
+                        <li class="mobile_menu_header" >
+                            <a>VISITING US</a>
+                        </li> 
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-location'>Location</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-directions'>Directions</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-hours'>Shopping Hours</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-accessibility'>Accessibility</a>
+                        </li>
+                        <li class="mobile_menu_header">
+                            <a>ABOUT US</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-sustainability'>Sustainability</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-mall-info'>About Spectrum SQ</a>
+                        </li>
+                        <li class="mobile_menu_item">
+                            <a href='/pages/spectrumsquare-about-20-vic-management'>About 20 Vic Management</a>
                         </li>        
                         <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-community-wifi'>Community Relations</a>
+                          <a href='/pages/spectrumsquare-hoopp'>About HOOPP</a>
                         </li>
                         <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-contact-us'>Contact Us</a>
+                          <a href='/pages/spectrumsquare-contact-us'>Contact Us</a>
                         </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-security'>Security</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                          <a href='/pages/cornwall-parking-at-cornwall-centre'>Parking Info</a>
-                        </li>
-                        <li class="mobile_menu_header" >
-                            <a href='/posts' >BLOG</a>
-                        </li> 
                     </ul>
                     <a id="mobile_logo" href="/">
                         <img class="mobile_logo" ALT="mobile_logo" src="//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700" />
