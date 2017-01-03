@@ -27,8 +27,8 @@
                     obj["attr"]["href"] = "/stores/" + val.slug
                     regions[val.svgmap_region] = obj
                 }
-                if(val.phone.length < 0){
-                    $(".tooltip_phone_icon").css(display: "none");
+                if(val.phone.length =< 0){
+                    $(".tooltip_phone_icon").css()
                 }
             });
             load_map(regions, stores);
