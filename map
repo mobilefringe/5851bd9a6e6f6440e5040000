@@ -9,9 +9,9 @@
 <div class="mobile_line_break"></div>
 <script src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
 <script>
-    $(document).ready(function(e){
-        // init(e);
+    $(document).ready(function(){
         function renderAll(){
+            init();
             var stores = getStoresList();
             var store_region = stores.svgmap_region;
             var store_name = stores.name;
