@@ -13,9 +13,9 @@
 </div>
     <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
 <script>
-    $(document).ready(function(e){
-        init(e);
+    $(document).ready(function(){
         function renderAll(){
+            init();
             var banners = getBanners();
             renderBanner('#home_banner_template','#home_banner', banners);
 
