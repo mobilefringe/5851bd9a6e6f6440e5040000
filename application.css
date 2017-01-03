@@ -1897,7 +1897,6 @@ td.stores_pin{
         // padding: 0 10px;
         padding: 0;
     }
-    
     .main_content {
         margin-left: 0;
         margin-right: 0;
@@ -1913,12 +1912,11 @@ td.stores_pin{
         left: 15px;
         max-width: 50%;
     }
-    
     .feature_links {
         margin-left: 0;
         margin-right: 0;
     }
-    .right_box{
+    .right_box {
         width: 100%;
     }
     .hour_box{
@@ -1935,31 +1933,14 @@ td.stores_pin{
     .hour_box .check_hours {
         color: #000;
     }
-    // .hour_box .feature_label {
-    //     padding: 13px 20px 0;
-    //     top: -10px;
-    // }
-    // .hour_box div{
-    //     padding-top: 25px;
-    // }
     .hour_box p{
         margin: 10px 0 0;
         padding-left: 20px;
         font-size:1.5em;
     }
-    
     .hour_box p a {
         color: inherit;
     }
-    
-    // .hour_box .check_hours {
-    //     padding-left: 20px;
-    // }
-    // .feature_label{
-    //     font-size:1.2em;
-    //     padding-top: 7px;
-    // }
-
     .right_feature_box{
         margin: 0;
         width: 100%;
@@ -1970,11 +1951,6 @@ td.stores_pin{
     .hour_box p{
         font-size: 1.4em;
     }
-    
-    // .check_hours{
-    //     font-size: 1.25em;
-    // }
-    
     .feature_boxes{
         width: 100%;
         padding-top:7px;
