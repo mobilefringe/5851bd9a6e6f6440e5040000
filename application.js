@@ -653,3 +653,22 @@ function show_png_pin(trigger, map){
 		);
     });
 }
+function load_map(reg, stores){
+    this_region = {};
+    this_region = stores.svgmap_region;
+    map = $('#mapsvg_store_list').mapSvg({
+        source: getSVGMapURL(),    // Path to SVG map
+        colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
+        disableAll: true,
+        regions: reg,
+        tooltipsMode: 'custom',
+        loadingText: "loading...",
+        zoom: true,
+        zoomButtons: {'show': true,'location': 'left' },
+        pan: true,
+        scroll: false,
+        cursor:'pointer',
+        responsive: true,
+        zoomLimit: [0, 10],
+    });
+}
