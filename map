@@ -27,35 +27,13 @@
             $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src=''/><p class='tooltip_phone'>" + val.phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>"
+                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><span><div class='tooltip_phone_div'><i class="fa fa-phone" aria-hidden="true"></i><p class='tooltip_phone'>" + val.phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>"
                     obj["attr"] = {}
                     obj["attr"]["href"] = "/stores/" + val.slug
                     regions[val.svgmap_region] = obj
                 }
             });
-            console.log(regions);
-        load_map(regions, stores);
-        
-        //     var map = $('#mapsvg_store_list').mapSvg({
-        //         source: getSVGMapURL(),    // Path to SVG map
-        //         colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
-        //         disableAll: true,
-        //         regions: {
-        //             store_region: {
-        //                 tooltip:"<div class='tooltip_div'><p class='tooltip_name'>" + store_name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src=''/><p class='tooltip_phone'>" + store_phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>",
-        //             attr:{
-        // 					href:'/stores/' + store_slug,
-    				// 	}
-    				// },
-        //         },
-        //         tooltipsMode:'custom',
-        //         zoom:true,
-        //         zoomButtons: {'show': true, 'location': 'left'},
-        //         pan:true,
-        //         cursor:'pointer',
-        //         responsive:true,
-        //         zoomLimit: [0,10],
-        //     });
+            load_map(regions, stores);
         }
         loadMallDataCached(renderAll);
         
@@ -67,8 +45,6 @@
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
                 disableAll: true,
-                // height: 450,
-                // width: 690,
                 regions: reg,
                 tooltipsMode: 'custom',
                 loadingText: "loading...",
@@ -79,11 +55,7 @@
                 cursor:'pointer',
                 responsive: true,
                 zoomLimit: [0, 10],
-
             });
-            // map.setViewBox(0, 0, 250, 490);
-            // map.selectRegion(store_details.svgmap_region);
         }
-    
     })
 </script>
