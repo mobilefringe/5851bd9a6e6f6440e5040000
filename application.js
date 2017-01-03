@@ -214,7 +214,7 @@ function renderJobs(container, template, collection){
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Spectrum Square";
         }
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
@@ -245,7 +245,7 @@ function renderJobDetails(container, template, collection){
             val.store_name = store_details.name;
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Spectrum Square";
             
         }
         
@@ -277,7 +277,7 @@ function renderEvents(container, template, collection){
             val.event_image_url = store_details.store_front_url_abs;
         }
         else {
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Spectrum Square";
             // val.event_image_url = val.event_image_url_abs;
         }
         if(val.event_image_url.indexOf('missing.png') < 0){
@@ -325,7 +325,7 @@ function renderEventDetails(container, template, collection){
             }
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Spectrum Square";
             val.image_url = "";
         }
         
@@ -361,12 +361,12 @@ function renderPromotions(container, template, collection){
             val.image_url = store_details.store_front_url_abs;
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
+            val.store_name = "Spectrum Square";
             // val.image_url = "";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > 0){
-            val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/028/original/aberdeen.jpg?1393004108";
+            val.promo_image_url_abs  = "//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700";
         }
         
         var show_date = moment(val.show_on_web_date);
@@ -404,8 +404,8 @@ function renderPromoDetails(container, template, collection){
             }
         }
         else{
-            val.store_name = "Aberdeen Mall Kamloops";
-            val.image_url = "";
+            val.store_name = "Spectrum Square";
+            val.image_url = "//www.mallmaverick.com/system/sites/logo_images/000/000/023/original/mall_logo.png?1381508700";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
