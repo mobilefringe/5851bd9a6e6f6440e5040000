@@ -18,8 +18,8 @@
                 </h1>
                 <hr>
                 <div>
-                    <span class="store_btn hidden-xs hidden-sm">{{phone}}</span>    
-                    <a href="tel:{{phone}}" class="store_btn visible-xs-inline-block visible-sm-inline-block">{{phone}}</a> 
+                    <span class="store_btn store_phone hidden-xs hidden-sm">{{phone}}</span>    
+                    <a href="tel:{{phone}}" class="store_btn store_phone visible-xs-inline-block visible-sm-inline-block">{{phone}}</a> 
                     <a href="http://{{website}}" class="store_btn" target="_blank">Website</a>    
                 </div>
                 <div class="store_desc"><p>{{{rich_description}}}</p></div>
@@ -100,6 +100,9 @@
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var store_details = getStoreDetailsBySlug(slug);
+            if(store_details.phone.length = 0) {
+                $(".store_phone").hide();    
+            }
             
             renderStoreDetails("#store_details_container","#store_details_template", store_details, slug);
             renderStoreDetails("#map_container","#map_template", store_details, slug);
