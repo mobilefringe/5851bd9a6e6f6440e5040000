@@ -1931,6 +1931,7 @@ td.stores_pin{
         color: #808080;
     }
     .hour_box .check_hours {
+        padding-bottom: 10px;
         color: #000;
     }
     .hour_box p{
