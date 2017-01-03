@@ -27,7 +27,7 @@
             $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><span><p class='tooltip_phone'>" + val.phone + "</p></span></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>"
+                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><span><p class='tooltip_phone' style='display:inline-block'>" + val.phone + "</p></span></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>"
                     obj["attr"] = {}
                     obj["attr"]["href"] = "/stores/" + val.slug
                     regions[val.svgmap_region] = obj
