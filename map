@@ -59,7 +59,7 @@
             });
             load_map(regions, stores);
         }
-        function load_map(reg, stores){
+        function load_map(regions, stores){
             this_region = {};
             this_region = stores.svgmap_region;
             map = $('#mapsvg_store_detail').mapSvg({
