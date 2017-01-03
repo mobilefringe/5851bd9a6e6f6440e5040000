@@ -18,8 +18,10 @@
                 </h1>
                 <hr>
                 <div>
+                    {{#phone}}
                     <span class="store_btn store_phone hidden-xs hidden-sm">{{phone}}</span>    
                     <a href="tel:{{phone}}" class="store_btn store_phone visible-xs-inline-block visible-sm-inline-block">{{phone}}</a> 
+                    {{/phone}}
                     <a href="http://{{website}}" class="store_btn" target="_blank">Website</a>    
                 </div>
                 <div class="store_desc"><p>{{{rich_description}}}</p></div>
