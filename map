@@ -57,8 +57,8 @@
             load_map(regions, stores);
         }
         function load_map(regions, stores){
-            this_region = {};
-            this_region = stores.svgmap_region;
+            // this_region = {};
+            // this_region = stores.svgmap_region;
             map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
