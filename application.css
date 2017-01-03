@@ -1311,7 +1311,9 @@ hr{
 .store_btn a:link{
     color: white;
 }
-
+.store_phone {
+    margin-right: 1%;
+}
 .store_desc{
     padding: 20px 0px;
     clear:both;
