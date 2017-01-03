@@ -34,7 +34,7 @@
                 }
             });
             console.log(regions);
-        load_map(regions, store_details);
+        load_map(regions, stores);
         
         //     var map = $('#mapsvg_store_list').mapSvg({
         //         source: getSVGMapURL(),    // Path to SVG map
