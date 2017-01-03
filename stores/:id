@@ -142,16 +142,18 @@
             
             region = {};
             var stores = getStoresList();
-            $.each( stores , function( key, val ) {
+            $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
                     obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p></div>"
                     obj["attr"] = {}
-                    obj["attr"]["href"] = "/stores/"+val.slug
+                    obj["attr"]["href"] = "/stores/" + val.slug
                     region[val.svgmap_region] = obj
                 }
             });
             load_map(region, store_details);
+                
+        //     }
         
         //     var region = store_details.svgmap_region;
         //     var store_region = store_details.svgmap_region;
@@ -181,9 +183,7 @@
         //         zoomLimit: [0,10]
         //     });
             
-        //     if (region != ""){
-        //         drop_pin(map, region);     
-        //     }
+        //     
         }
         
         function load_map(reg, store_details){
@@ -208,6 +208,7 @@
             });
             // map.setViewBox(0, 0, 250, 490);
             map.selectRegion(store_details.svgmap_region);
+            drop_pin(map, region); 
         }
     
         function drop_pin(map, region){
