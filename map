@@ -27,7 +27,7 @@
             $.each(stores, function(key, val) {
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
-                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><span><p class='tooltip_phone'>" + val.phone + "</p></span></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>"
+                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div>"
                     obj["attr"] = {}
                     obj["attr"]["href"] = "/stores/" + val.slug
                     regions[val.svgmap_region] = obj
@@ -36,26 +36,5 @@
             load_map(regions, stores);
         }
         loadMallDataCached(renderAll);
-        
-        
-        function load_map(reg, stores){
-            this_region = {};
-            this_region = stores.svgmap_region;
-            map = $('#mapsvg_store_list').mapSvg({
-                source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
-                disableAll: true,
-                regions: reg,
-                tooltipsMode: 'custom',
-                loadingText: "loading...",
-                zoom: true,
-                zoomButtons: {'show': true,'location': 'left' },
-                pan: true,
-                scroll: false,
-                cursor:'pointer',
-                responsive: true,
-                zoomLimit: [0, 10],
-            });
-        }
     })
 </script>
