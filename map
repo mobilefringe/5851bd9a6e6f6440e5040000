@@ -18,26 +18,64 @@
             var store_phone = stores.phone;
             var store_slug = stores.slug;
             console.log(stores);
-            var map = $('#mapsvg_store_list').mapSvg({
+            
+            
+        //     var map = $('#mapsvg_store_list').mapSvg({
+        //         source: getSVGMapURL(),    // Path to SVG map
+        //         colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
+        //         disableAll: true,
+        //         regions: {
+        //             store_region: {
+        //                 tooltip:"<div class='tooltip_div'><p class='tooltip_name'>" + store_name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src=''/><p class='tooltip_phone'>" + store_phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>",
+        //             attr:{
+        // 					href:'/stores/' + store_slug,
+    				// 	}
+    				// },
+        //         },
+        //         tooltipsMode:'custom',
+        //         zoom:true,
+        //         zoomButtons: {'show': true, 'location': 'left'},
+        //         pan:true,
+        //         cursor:'pointer',
+        //         responsive:true,
+        //         zoomLimit: [0,10],
+        //     });
+            
+            regions = {};
+            $.each(stores, function(key, val) {
+                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+                    obj = {};
+                    obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src=''/><p class='tooltip_phone'>" + val.phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>"
+                    obj["attr"] = {}
+                    obj["attr"]["href"] = "/stores/"+ val.slug
+                    regions[val.svgmap_region] = obj
+                }
+            });
+            load_map(regions, store_details);
+        }
+        function load_map(reg, store_details){
+            this_region = {};
+            this_region = store_details.svgmap_region;
+            map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
                 disableAll: true,
-                regions: {
-                    store_region: {
-                        tooltip:"<div class='tooltip_div'><p class='tooltip_name'>" + store_name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src=''/><p class='tooltip_phone'>" + store_phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>",
-                    attr:{
-        					href:'/stores/' + store_slug,
-    					}
-    				},
-                },
-                tooltipsMode:'custom',
-                zoom:true,
-                zoomButtons: {'show': true, 'location': 'left'},
-                pan:true,
-                cursor:'pointer',
-                responsive:true,
-                zoomLimit: [0,10],
+                height: 450,
+                width: 690,
+                regions: reg,
+                tooltipsMode: 'custom',
+                loadingText: "loading...",
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'left' },
+                pan: true,
+                scroll: false,
+                cursor:'move',
+                responsive: true,
+                zoomLimit: [0, 3],
+                viewBox:[0, 0, 1987, 1548]
             });
+            map.setViewBox(0, 0, 250, 490);
+            map.selectRegion(store_details.svgmap_region);
         }
         loadMallDataCached(renderAll);
     })
