@@ -1,6 +1,6 @@
 <div>
 	<h1 class="page_title">Centre Map</h1>
-	<hr />
+	<hr/>
 	<div class="store_list_map_div">
         <div id="mapsvg_store_list"></div>     
     </div>
@@ -15,10 +15,6 @@
         function renderAll(){
             init();
             var stores = getStoresList();
-            var store_region = stores.svgmap_region;
-            var store_name = stores.name;
-            var store_phone = stores.phone;
-            var store_slug = stores.slug;
             console.log(stores);
             
             regions = {};
