@@ -34,7 +34,7 @@
                 }
             });
             console.log(regions);
-        // load_map(regions, store_details);
+        load_map(regions, store_details);
         
         //     var map = $('#mapsvg_store_list').mapSvg({
         //         source: getSVGMapURL(),    // Path to SVG map
@@ -60,12 +60,12 @@
         loadMallDataCached(renderAll);
         
         
-        function load_map(reg, store_details){
+        function load_map(reg, stores){
             this_region = {};
-            this_region = store_details.svgmap_region;
+            this_region = stores.svgmap_region;
             map = $('#mapsvg_store_detail').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#000', hover: '#66FFFF', selected: '#66FFFF', background: '#fff'},
+                colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
                 disableAll: true,
                 height: 450,
                 width: 690,
@@ -76,13 +76,13 @@
                 zoomButtons: {'show': true,'location': 'left' },
                 pan: true,
                 scroll: false,
-                cursor:'move',
+                cursor:'pointer',
                 responsive: true,
-                zoomLimit: [0, 3],
-                viewBox:[0, 0, 1987, 1548]
+                zoomLimit: [0, 10],
+
             });
-            map.setViewBox(0, 0, 250, 490);
-            map.selectRegion(store_details.svgmap_region);
+            // map.setViewBox(0, 0, 250, 490);
+            // map.selectRegion(store_details.svgmap_region);
         }
     
     })
