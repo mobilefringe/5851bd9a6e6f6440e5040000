@@ -1975,20 +1975,16 @@ td.stores_pin{
         height: auto;
         padding: 5px;
     }
-    
     .store_row_name a {
         font-size: 18px;
         font-weight: bold;
     }
-    
     .store-list {
         margin-left: -10px;
         margin-right: -10px;    
     }
-    
     .store_details h1.store_page {
         font-size: 30px;
-        
     }
     .accordion-heading h2.job_title, 
     .accordion-heading h2.job_close_date{
@@ -1997,7 +1993,6 @@ td.stores_pin{
         padding-bottom: 5px;
         padding-top: 5px;
     }
-    
     .accordion-inner img {
         max-width: 100%;
     }
