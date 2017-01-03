@@ -33,6 +33,7 @@
                     regions[val.svgmap_region] = obj
                 }
             });
+            console.log(regions);
         // load_map(regions, store_details);
         
         //     var map = $('#mapsvg_store_list').mapSvg({
