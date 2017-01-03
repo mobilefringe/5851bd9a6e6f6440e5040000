@@ -13,10 +13,11 @@
         function renderAll(){
             init();
             var stores = getStoresList();
-            var store_region = stores.svgmap_region;
-            var store_name = stores.name;
-            var store_phone = stores.phone;
-            var store_slug = stores.slug;
+            var store_details = getStoreDetailsBySlug(slug);
+            // var store_region = stores.svgmap_region;
+            // var store_name = stores.name;
+            // var store_phone = stores.phone;
+            // var store_slug = stores.slug;
             console.log(stores);
             
             
