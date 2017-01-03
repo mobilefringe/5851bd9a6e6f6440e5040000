@@ -1413,13 +1413,15 @@ hr{
 
 
 /************** map *************/
+.tooltip_phone {
+    color: #a6a6a6;
+}
 .map {
     position: relative;
     top: 0;
     left: 0;
     border-radius: 4px;
 }
-
 .demo1 {
     height: 457px;
     width: 100%;
@@ -1428,17 +1430,13 @@ hr{
     box-shadow: none;
     border: solid 1px #5e514e;
     border-radius: 0;
-    
 }
-
 .media-body h4{
     color: gray;
 }
-
 .media-body h4 p{
     color: black;
 }
-
 .marker {
     margin-top: 5px;
     display: block;
