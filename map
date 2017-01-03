@@ -86,5 +86,3 @@
     
     })
 </script>
-
-tooltip:"<div class='tooltip_div'><p class='tooltip_name'>" + store_name + "</p><span><div class='tooltip_phone_div'><img class='tooltip_phone_icon' src=''/><p class='tooltip_phone'>" + store_phone + "</p></div><div class='tooltip_promo_div'><img class='tooltip_promo_icon' src='' /><p class='tooltip_promo'>{{store_promo}}</p></div></span></div>",
