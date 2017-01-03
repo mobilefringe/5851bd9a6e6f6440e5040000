@@ -177,21 +177,36 @@
                 zoomLimit: [0, 10],
             });
             map.selectRegion(store_details.svgmap_region);
-             
+            drop_pin(store_details.svgmap_region);
         }
-    
-        function drop_pin(map, region){
-            var coords = map.get_coords(region);
-            var height = parseInt(coords["height"])
-            var width = parseInt(coords["width"])
+        
+        function drop_pin(id){
+            map.marksHide();
+            var coords = map.get_coords(id);
+            var height = parseInt(coords["height"]);
+            var width = parseInt(coords["width"]);
             var x_offset = (parseInt(width) / 2);
             var y_offset = (parseInt(height) /2);
             map.setMarks([{ xy: [coords["x"] - 22 + x_offset, coords["y"] - 55 + y_offset],
                 attrs: {
                     src:  '//mallmaverick.cdn.speedyrails.net/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
                 }
-            }])
+            }]);
+            // map.setViewBox(id);
         }
+
+        // function drop_pin(map, region){
+        //     var coords = map.get_coords(region);
+        //     var height = parseInt(coords["height"])
+        //     var width = parseInt(coords["width"])
+        //     var x_offset = (parseInt(width) / 2);
+        //     var y_offset = (parseInt(height) /2);
+        //     map.setMarks([{ xy: [coords["x"] - 22 + x_offset, coords["y"] - 55 + y_offset],
+        //         attrs: {
+        //             src:  '//mallmaverick.cdn.speedyrails.net/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836'
+        //         }
+        //     }])
+        // }
         loadMallDataCached(renderAll); 
     })
 </script>
