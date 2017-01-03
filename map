@@ -28,7 +28,7 @@
                     regions[val.svgmap_region] = obj
                 }
                 if(val.phone.length < 0){
-                    $("i.tooltip_phone_icon").hide();
+                    $(".tooltip_phone_icon").css("display","none");
                 }
             });
             load_map(regions, stores);
