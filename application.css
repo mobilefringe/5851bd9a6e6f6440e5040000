@@ -1547,21 +1547,6 @@ td.stores_pin{
     text-align:right;
 }
 
-/********* contest form *********/
-#contest_form label{
-    font-weight:500;
-}
-#contest_form input {
-    max-width:300px;
-    width: 100%;
-}
-#contest_form input#postal_code{
-    width:65px;
-}
-#contest_form input#age{
-    width:35px;
-}
-
 /******** pages **********/
 .page_body h1{
     padding-top: 0px;
@@ -2092,15 +2077,63 @@ td.stores_pin{
 #contest_form_20vic .contest_checkbox{
     font-size: 10pt;    
 }
-.contest_page #contest_description{
-    font-size: 16pt;
+.contest_page .contest_description {
+    font-family: futura_medium_light, futura_medium_light_ie;
+    font-size: 1.2em;
+    line-height: 1.3em;
     color: #6D6F71;
-    font-family: futura_medium;  
     padding: 15px 5px 10px 5px;
 }
-
+.contest_page .contest_description p {
+    font-family: futura_medium_light, futura_medium_light_ie;
+    font-size: 19.2px;
+    line-height: 1.3em;
+}
+.contest_page img {
+    max-width: 100%;
+}
 #agree_terms{
     margin: -4px 0 0;    
+}
+#success_msg {
+    font-family: futura_medium_light, futura_medium_light_ie;
+    font-size: 1.2em;
+    line-height: 1.3em;
+    color: #6D6F71;
+}
+/********* contest form *********/
+#contest_form label{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 20px;
+    font-family: futura_medium_light, Helvetica, sans-serif;
+}
+#contest_form .form-control {
+    margin-top: 5px;
+    margin-bottom: 25px;
+    padding: 4px 6px;
+    width: 100%;
+    height: 40px;
+}
+#contest_form input#age{
+    width:35px;
+}
+#contest_form label.agree_msg {
+    font-family: futura_medium_light, Helvetica, sans-serif;
+    font-size: 16px;
+}
+#contest_form label.agree_msg a {
+    color: inherit;
+    text-decoration: underline;
+}
+.help-block{
+    margin-top: -20px;
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.contest_btn {
+    width: 130px;
+    height: 35px;
 }
 
 /* ***Property CSS *** */
