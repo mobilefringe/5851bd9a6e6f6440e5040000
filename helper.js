@@ -88,3 +88,4 @@ function show_content(){
     renderFeatureItems('#feature_item','#feature_item_template', one_item);
     var two_items = feature_items.slice(1,3);
     renderFeatureItems('#home_feature','#home_feature_template', two_items);
+}
