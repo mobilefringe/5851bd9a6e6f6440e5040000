@@ -14,18 +14,18 @@
 <!--        </script>-->
 <!--    </div>-->
 <!--</div>-->
-<script>
-$(document).ready(function(e){
-    init(e);
-    function renderAll(){
-        var blog = getBlogDataBySlug('');
-        var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();
-        renderPosts('#blog_container', '#blog_template', posts);
+<!--<script>-->
+<!--$(document).ready(function(e){-->
+<!--    init(e);-->
+<!--    function renderAll(){-->
+<!--        var blog = getBlogDataBySlug('');-->
+<!--        var posts = blog.posts.sortBy(function(o){ return moment(o.publish_date) }).reverse();-->
+<!--        renderPosts('#blog_container', '#blog_template', posts);-->
         
-        setTimeout(function() {
-            show_content();
-        }, 500);
-    }
-    loadMallDataCached(renderAll); 
-})
-</script>
+<!--        setTimeout(function() {-->
+<!--            show_content();-->
+<!--        }, 500);-->
+<!--    }-->
+<!--    loadMallDataCached(renderAll); -->
+<!--})-->
+<!--</script>-->
