@@ -166,7 +166,9 @@ p{
     padding:0;
     position:relative;
 }
-
+.yield {
+    visibility: hidden;
+}
 .top_nav{
     background-image:url(PRIMARY_NAV_IMAGE);
     height:auto;    
