@@ -1,3 +1,119 @@
+@font-face {
+    font-family: futura_light;
+    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/763/original/Futura_LightOblique_.ttf?1381173590);
+}
+
+@font-face {
+    font-family: futura_light_ie;
+    src: url(//www.mallmaverick.com/system/site_images/photos/000/002/245/original/futura_lightoblique_-webfont.eot?1396629867);
+}
+
+@font-face {
+    font-family: futura_medium;
+    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/764/original/Futura.ttf?1381178548);
+}
+
+@font-face {
+    font-family: futura_condensed;
+    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/765/original/BenchNine-Regular.ttf?1381241875);
+}
+
+@font-face {
+    font-family: futura_medium_light;
+    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/772/original/UniversalisADFStd-Regular.otf?1381267637);
+}
+
+@font-face {
+    font-family: futura_medium_light_ie;
+    src: url(//www.mallmaverick.com/system/site_images/photos/000/002/244/original/universalisadfstd-regular-webfont.eot?1396629430);
+}
+
+body{
+    font-family: futura_medium, Helvetica, sans-serif;
+    font-size: 12pt;
+    color:black;
+    background-color:white;
+}
+body:after {
+  content: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/close.png) url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/gif/1478472594000/loading.gif) url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/prev.png) url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/next.png);
+}
+p{
+    font-family: futura_medium_light, futura_medium_light_ie;
+    font-size: 1.2em;
+    line-height: 1.3em;
+}
+
+/* *** LOADER *** */
+.loader_backdrop{
+    padding-top: 10%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    background-color: hsla(0, 0%, 0%, 0.2);
+    text-align: center;
+}
+
+.loader,
+.loader:before,
+.loader:after {
+  border-radius: 50%;
+  width: 2em;
+  height: 2em;
+  -webkit-animation-fill-mode: both;
+  animation-fill-mode: both;
+  -webkit-animation: load7 1.8s infinite ease-in-out;
+  animation: load7 1.8s infinite ease-in-out;
+}
+.loader {
+  color: #ffffff;
+  font-size: 9px;
+  margin: 80px auto;
+  position: relative;
+  text-indent: -9999em;
+  -webkit-transform: translateZ(0);
+  -ms-transform: translateZ(0);
+  transform: translateZ(0);
+  -webkit-animation-delay: -0.16s;
+  animation-delay: -0.16s;
+}
+.loader:before,
+.loader:after {
+  content: '';
+  position: absolute;
+  top: 0;
+}
+.loader:before {
+  left: -3.5em;
+  -webkit-animation-delay: -0.32s;
+  animation-delay: -0.32s;
+}
+.loader:after {
+  left: 3.5em;
+}
+@-webkit-keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+@keyframes load7 {
+  0%,
+  80%,
+  100% {
+    box-shadow: 0 2.5em 0 -1.3em;
+  }
+  40% {
+    box-shadow: 0 2.5em 0 0;
+  }
+}
+/* *** */
 
 /********* 20 vic popups ***********/
 .mfp-content{
@@ -43,55 +159,6 @@
 	padding: 0px 7px;
 	border-radius: 3px;
 	border: none;
-}
-
-
-
-@font-face {
-    font-family: futura_light;
-    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/763/original/Futura_LightOblique_.ttf?1381173590);
-}
-
-@font-face {
-    font-family: futura_light_ie;
-    src: url(//www.mallmaverick.com/system/site_images/photos/000/002/245/original/futura_lightoblique_-webfont.eot?1396629867);
-}
-
-@font-face {
-    font-family: futura_medium;
-    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/764/original/Futura.ttf?1381178548);
-}
-
-@font-face {
-    font-family: futura_condensed;
-    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/765/original/BenchNine-Regular.ttf?1381241875);
-}
-
-@font-face {
-    font-family: futura_medium_light;
-    src: url(//www.mallmaverick.com/system/site_images/photos/000/000/772/original/UniversalisADFStd-Regular.otf?1381267637);
-}
-
-@font-face {
-    font-family: futura_medium_light_ie;
-    src: url(//www.mallmaverick.com/system/site_images/photos/000/002/244/original/universalisadfstd-regular-webfont.eot?1396629430);
-}
-
-
-
-body{
-    font-family: futura_medium, Helvetica, sans-serif;
-    font-size: 12pt;
-    color:black;
-    background-color:white;
-}
-body:after {
-  content: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/close.png) url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/gif/1478472594000/loading.gif) url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/prev.png) url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/next.png);
-}
-p{
-    font-family: futura_medium_light, futura_medium_light_ie;
-    font-size: 1.2em;
-    line-height: 1.3em;
 }
 
 .header {
