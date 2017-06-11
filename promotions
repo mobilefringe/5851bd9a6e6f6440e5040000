@@ -24,27 +24,30 @@
         <div class="line_break"></div>
     </div>
 </div>
-
 <script>
-    $(document).ready(function(){
-        function renderAll(){
-            init();
-            var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
-            var published_promos = [];
-            $.each(promotions, function(key, val){
-                today = moment();
-                webDate = moment(val.show_on_web_date)
-                if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
-                    published_promos.push(val);
-                }
-            });
-            if(published_promos.length > 0){
-                renderPromotions("#store_promo_container","#store_promo_template", published_promos);
+$(document).ready(function(e){
+    init(e);
+    function renderAll(){
+        var promotions = getPromotionsList().sortBy(function(o){ return o.show_on_web_date});
+        var published_promos = [];
+        $.each(promotions, function(key, val){
+            today = moment();
+            webDate = moment(val.show_on_web_date)
+            if (today.tz(getPropertyTimeZone()) >= webDate.tz(getPropertyTimeZone())) {
+                published_promos.push(val);
             }
-            else{
-                $('#no_promos').show();
-            }
+        });
+        if(published_promos.length > 0){
+            renderPromotions("#store_promo_container","#store_promo_template", published_promos);
         }
-        loadMallDataCached(renderAll); 
-    })
+        else{
+            $('#no_promos').show();
+        }
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+    }
+    loadMallDataCached(renderAll); 
+})
 </script>
