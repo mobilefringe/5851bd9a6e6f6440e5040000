@@ -86,7 +86,12 @@
             console.log(contest_details);
             renderContest("#contest_container", '#contest_template', contest_details)
             
+            setTimeout(function() {
+                show_content();
+            }, 500);
+        
             $.validate();
+            
             $('#contest_form').submit(function(e){
                 e.preventDefault();
                 $('.contest_btn').prop('disabled', true);
