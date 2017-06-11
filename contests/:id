@@ -76,10 +76,9 @@
 </div>
 
 <script>
-    $(document).ready(function(){
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
-            init();
-            
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             contest_details = getContestBySlug(slug);
