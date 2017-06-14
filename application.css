@@ -1511,7 +1511,7 @@ p.tooltip_phone {
     height: 65px;
     text-indent: -9999px;
     outline: none;
-    background:url("//www.mallmaverick.com/system/sites/map_markers/000/000/027/original/map_marker.png?1417461836") no-repeat;
+    background: url(//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497039299000/map_marker.png ) no-repeat;
     cursor: pointer;
 }
 .popup {
