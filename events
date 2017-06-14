@@ -24,7 +24,7 @@
     </div>
 </div>
 <script>
-$(document).ready(function(){
+$(document).ready(function(e){
     init(e);
     function renderAll(){
         var events = getEventsList().sortBy(function(o){ return o.start_date });
