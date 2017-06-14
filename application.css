@@ -1482,6 +1482,24 @@ hr{
     max-width: 100%;
 }
 
+.lb-cancel {
+    background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/gif/1478472594000/loading.gif) no-repeat;
+}
+.lb-nav a.lb-prev {
+    background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/prev.png) left 48% no-repeat;
+}
+.lb-nav a.lb-next {
+    background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/next.png) right 48% no-repeat;
+}
+.lb-data .lb-closeContainer {
+    position: relative;
+}
+.lb-data .lb-close {
+    position: absolute;
+    top: -20px;
+    right: -20px;
+    background: url(//codecloud.cdn.speedyrails.net/sites/584ed7876e6f643ecd000000/image/png/1478472594000/close.png) top right no-repeat;
+}
 
 /************** map *************/
 .tooltip_phone_icon {
