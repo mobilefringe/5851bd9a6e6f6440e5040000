@@ -115,6 +115,7 @@ $(document).ready(function(e){
         });
         if( published_promos.length > 0){
             renderPromotions("#promos_container","#promos_template", published_promos);
+            $('#promo_show').show();
             $('#promotions').show();
         }
         
@@ -130,6 +131,7 @@ $(document).ready(function(e){
         });
         if( published_jobs.length > 0){
             renderJobs('#jobs_container', '#jobs_template', published_jobs);
+            $('#job_show').show();
             $('#employment').show();
         }
         
