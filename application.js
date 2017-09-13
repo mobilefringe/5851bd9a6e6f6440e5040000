@@ -330,8 +330,7 @@ function renderPromotions(container, template, collection){
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = store_details.store_front_url_abs;
-        }
-        else{
+        } else {
             val.store_name = "Spectrum Square";
             // val.image_url = "";
         }
@@ -345,8 +344,7 @@ function renderPromotions(container, template, collection){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM D")
-        }
-        else{
+        } else {
             val.dates = start.format("MMM D") + " - " + end.format("MMM D")
         }
         
@@ -369,18 +367,16 @@ function renderPromoDetails(container, template, collection){
             val.store_name = store_details.name;
             if (store_details.store_front_url_abs.indexOf('missing.png') > -1){
                 val.image_url = "";
-            }
-            else{
+            } else {
                 val.image_url = store_details.store_front_url_abs;
             }
-        }
-        else{
+        } else {
             val.store_name = "Spectrum Square";
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/jpeg/1497457979000/SQ_logo.jpg";
         }
         
         if(val.promo_image_url_abs.indexOf('missing.png') > -1){
-            val.promo_image_show="display:none";
+            val.promo_image_show = "display: none";
         }
         
         var show_date = moment(val.show_on_web_date);
@@ -388,8 +384,7 @@ function renderPromoDetails(container, template, collection){
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
             val.dates = start.format("MMM D")
-        }
-        else{
+        } else {
             val.dates = start.format("MMM D") + " - " + end.format("MMM D")
         }
         var rendered = Mustache.render(template_html,val);
