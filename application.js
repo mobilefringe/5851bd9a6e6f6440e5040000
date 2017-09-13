@@ -594,6 +594,7 @@ function show_png_pin(trigger, map){
 		);
     });
 }
+
 function load_map(reg, stores){
     this_region = {};
     this_region = stores.svgmap_region;
