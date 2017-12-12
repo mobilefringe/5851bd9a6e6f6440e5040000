@@ -399,7 +399,7 @@
         </div>
         <div class="footer trim_screen">
             <span>
-                &copy; 2017 Spectrum Square | <a href="/pages/spectrumsquare-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+                &copy;  <span id="current_year" style="padding:0"></span> Spectrum Square | <a href="/pages/spectrumsquare-privacy-policy" target="_blank">Privacy Policy</a> | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
             </span>
             <a href="//triovest.com/en/" target="_blank">
                 <img ALT="20vic_logo" style="height:30px; padding-top:10px;" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1502744541000/Triovest_Reverse_CMYK-02.png"/>
