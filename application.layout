@@ -307,7 +307,7 @@
         	<div class="row-fluid">
                 <div class="col-sm-6 col-md-4">
                     <div class="newsletter_box">
-                        <form action=http://mobilefringe.createsend.com/t/d/s/duhrs/ method="post" id="subForm">
+                        <form action=https://mobilefringe.createsend.com/t/d/s/duhrs/ method="post" id="subForm">
                             <label for="newsletter_box_id">
                                 <i class="fa fa-envelope social_icon" aria-hidden="true"></i>
                                 SUBSCRIBE AND GET UPDATES
