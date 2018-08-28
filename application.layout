@@ -156,7 +156,7 @@
                         <button class="btn-nav" data-toggle="dropdown">DIRECTORY</button>                                                     
                         <ul class="dropdown-menu">                            
                             <li>
-                                <a class="nav_a" href='/stores' target='_self'><span>Store Directory</span></a>                                
+                                <a class="nav_a" href='/stores' target='_self'><span>Office</span></a>                                
                             </li>
                             <li>
                                 <a class="nav_a" href='/map' target='_self'><span>Shopping Map</span></a>                                
