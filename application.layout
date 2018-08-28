@@ -184,15 +184,15 @@
                         </ul>
                     </li>            
                     <li class="dropdown ">
-                        <button class="btn-nav" data-toggle="dropdown">EVENTS & PROMOTIONS</button>                                                     
-                        <ul class="dropdown-menu">                            
-                            <li>
-                                <a class="nav_a" href='/events' target='_self'><span>Special Events</span></a>                                
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/promotions' target='_self'><span>Retailer Promotions</span></a>                                
-                            </li>
-                        </ul>
+                        <button class="btn-nav" onclick="window.location.href='/events'">EVENTS</button>                                                    
+                        <!--<ul class="dropdown-menu">                            -->
+                        <!--    <li>-->
+                        <!--        <a class="nav_a" href='/events' target='_self'><span>Special Events</span></a>                                -->
+                        <!--    </li>-->
+                        <!--    <li>-->
+                        <!--        <a class="nav_a" href='/promotions' target='_self'><span>Retailer Promotions</span></a>                                -->
+                        <!--    </li>-->
+                        <!--</ul>-->
                     </li> 
                     <li class="dropdown ">
                         <button class="btn-nav" data-toggle="dropdown">VISITING US</button>                                                     
