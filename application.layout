@@ -344,26 +344,26 @@
         		<div class="col-sm-12 col-md-8">  
         		    <div class="mobile_line_break"></div>
                     <div class="nav_site_map hidden-xs">
-                        <label for="nav_site_map_link_id" >SITE MAP</label>
-                        <div class="site_map_cols">
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">DIRECTORY</span>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/stores' target='_self'>Office</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/map' target='_self'>Retail</a>
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/pages/spectrumsquare-office-leasing">OFFICE LEASING</a>  
-                                </span>                                 
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/pages/spectrumsquare-the-eatery-leasing">RETAIL LEASING</a>                                
-                                </span>
-                            </div>
-                            <div class="nav_sitemap_item">
+              <!--          <label for="nav_site_map_link_id" >SITE MAP</label>-->
+              <!--          <div class="site_map_cols">-->
+              <!--              <div class="nav_sitemap_item">-->
+              <!--                  <span class="site_map_title">DIRECTORY</span>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+              <!--                  <a class="site_map_submenu" href='/stores' target='_self'>Office</a>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+              <!--                  <a class="site_map_submenu" href='/map' target='_self'>Retail</a>-->
+              <!--              </div>-->
+              <!--              <div class="nav_sitemap_item">-->
+              <!--                  <span class="site_map_title">-->
+              <!--                      <a href="/pages/spectrumsquare-office-leasing">OFFICE LEASING</a>  -->
+              <!--                  </span>                                 -->
+              <!--              </div>-->
+              <!--              <div class="nav_sitemap_item">-->
+              <!--                  <span class="site_map_title">-->
+              <!--                      <a href="/pages/spectrumsquare-the-eatery-leasing">RETAIL LEASING</a>                                -->
+              <!--                  </span>-->
+              <!--              </div>-->
+              <!--              <div class="nav_sitemap_item">-->
                                 <!--<span class="site_map_title">MEDIA GALLERY</span>-->
                                 <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
                                 <!--<a class="site_map_submenu" href='/pages/spectrumsquare-in-the-news' target='_self'>In the News</a>-->
@@ -371,47 +371,47 @@
                                 <!--<a class="site_map_submenu" href='/pages/spectrumsquare-the-building' target='_self'>The Building</a>-->
                                 <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
                                 <!--<a class="site_map_submenu" href='/pages/spectrumsquare-the-eatery' target='_self'>The Eatery</a>-->
-                                <span class="site_map_title">TENANT SERVICES</span>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/service-connect' target='_self'>Service Connect</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/tenant-newsletter' target='_self'>Tenant Newsletter</a>
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">
-                                    <a href="/events">EVENTS</a>                                
-                                </span>
+              <!--                  <span class="site_map_title">TENANT SERVICES</span>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+              <!--                  <a class="site_map_submenu" href='/pages/service-connect' target='_self'>Service Connect</a>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+              <!--                  <a class="site_map_submenu" href='/pages/tenant-newsletter' target='_self'>Tenant Newsletter</a>-->
+              <!--              </div>-->
+              <!--              <div class="nav_sitemap_item">-->
+              <!--                  <span class="site_map_title">-->
+              <!--                      <a href="/events">EVENTS</a>                                -->
+              <!--                  </span>-->
                                 <!--<span class="site_map_title">EVENTS & PROMOTIONS</span>-->
                                 <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
                                 <!--<a class="site_map_submenu" href='/events' target='_self'>Special Events</a>-->
                                 <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
                                 <!--<a class="site_map_submenu" href='/promotions' target='_self'>Retailer Promotions</a>-->
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">VISITING US</span>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-location' target='_self'>Location & Directions</a>
+              <!--              </div>-->
+              <!--              <div class="nav_sitemap_item">-->
+              <!--                  <span class="site_map_title">VISITING US</span>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-location' target='_self'>Location & Directions</a>-->
               <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
         						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-directions' target='_self'>Directions</a>-->
               <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
         						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-hours' target='_self'>Hours</a>-->
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-accessibility' target='_self'>Accessibility</a>
-                            </div>
-                            <div class="nav_sitemap_item">
-                                <span class="site_map_title">ABOUT US</span>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-sustainability' target='_self'>Sustainability</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-mall-info' target='_self'>About Spectrum SQ</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-about-triovest-realty-advisors' target='_self'>About Triovest Realty Advisors</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-hoopp' target='_self'>About HOOPP</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-        						<a class="site_map_submenu" href='/pages/spectrumsquare-contact-us' target='_self'>Contact Us</a>
-                            </div>
-                        </div>
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-accessibility' target='_self'>Accessibility</a>-->
+              <!--              </div>-->
+              <!--              <div class="nav_sitemap_item">-->
+              <!--                  <span class="site_map_title">ABOUT US</span>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-sustainability' target='_self'>Sustainability</a>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-mall-info' target='_self'>About Spectrum SQ</a>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-about-triovest-realty-advisors' target='_self'>About Triovest Realty Advisors</a>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-hoopp' target='_self'>About HOOPP</a>-->
+              <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+        						<!--<a class="site_map_submenu" href='/pages/spectrumsquare-contact-us' target='_self'>Contact Us</a>-->
+              <!--              </div>-->
+              <!--          </div>-->
                     </div>
                     <div class="line_break hidden-xs"></div>
                 </div>
