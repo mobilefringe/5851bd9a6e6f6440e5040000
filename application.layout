@@ -266,7 +266,8 @@
                             // <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 // {%raw%}
                                 <a href="//triovest.com/en/tenant-services/">
-                                    <img alt="feature_image" src="{{image_url}}" />
+                                    <img alt="
+                                    {{name}}" src="{{image_url}}" />
                                 </a>
                                 // {%endraw%}
                             <!--</script>-->
