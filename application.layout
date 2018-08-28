@@ -173,7 +173,7 @@
                         <button class="btn-nav" data-toggle="dropdown">TENANT SERVICES</button>                                                     
                         <ul class="dropdown-menu">                            
                             <li>
-                                <a class="nav_a" href='/pages/spectrumsquare-in-the-news' target='_self'><span>In the News</span></a>                                
+                                <a class="nav_a" href='/pages/spectrumsquare-in-the-news' target='_self'><span>Service Connect</span></a>                                
                             </li>
                             <li>
                                 <a class="nav_a" href='/pages/spectrumsquare-the-building' target='_self'><span>The Building</span></a>                                
