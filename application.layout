@@ -265,7 +265,7 @@
                         <div class="feature_box" id="feature_item_1">
                            <!-- <script id="feature_item_template_1" type="x-tmpl-mustache/text">-->
                              <!-- {%raw%}-->
-                                <a href="//triovest.com/en/tenant-services/">
+                                <a href="//triovest.com/en/tenant-services/" target="_blank">
                                     <img alt="{{name}}" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1535493345824/serviceconnect_logo_eng.png" />
                                 </a>
                               <!-- {%endraw%}-->
