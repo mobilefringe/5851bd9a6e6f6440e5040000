@@ -351,13 +351,18 @@
                                 </span>
                             </div>
                             <div class="nav_sitemap_item">
-                                <span class="site_map_title">MEDIA GALLERY</span>
+                                <!--<span class="site_map_title">MEDIA GALLERY</span>-->
+                                <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+                                <!--<a class="site_map_submenu" href='/pages/spectrumsquare-in-the-news' target='_self'>In the News</a>-->
+                                <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+                                <!--<a class="site_map_submenu" href='/pages/spectrumsquare-the-building' target='_self'>The Building</a>-->
+                                <!--<a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+                                <!--<a class="site_map_submenu" href='/pages/spectrumsquare-the-eatery' target='_self'>The Eatery</a>-->
+                                <span class="site_map_title">TENANT SERVICES</span>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/pages/spectrumsquare-in-the-news' target='_self'>In the News</a>
                                 <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
                                 <a class="site_map_submenu" href='/pages/spectrumsquare-the-building' target='_self'>The Building</a>
-                                <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                                <a class="site_map_submenu" href='/pages/spectrumsquare-the-eatery' target='_self'>The Eatery</a>
                             </div>
                             <div class="nav_sitemap_item">
                                 <span class="site_map_title">
