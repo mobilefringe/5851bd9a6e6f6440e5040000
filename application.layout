@@ -245,21 +245,33 @@
     
             <div class="mobile_container">
                 <div class="col-md-3">
-                    <div class="hour_box">  
-                        <div class="hour_info">
-                            <label for="hours_today" class="feature_label">HOURS</label>
-                            <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>
-                            <div id="home_hours_container" class="home_hours_info">
-                                <script id="home_hours_template" type="x-tmpl-mustache/text">
-                                    {%raw%}
-                                    <span class="hour_title">Open</span>
-                                    <span class="hour_info">Monday - Friday</span>
-                                    {%endraw%}
-                                </script>
-                            </div>
-                            <a href="/stores" class="check_hours">Click for individual retailer hours.</a>
+                    <!--<div class="hour_box">  -->
+                    <!--    <div class="hour_info">-->
+                    <!--        <label for="hours_today" class="feature_label">HOURS</label>-->
+                    <!--        <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
+                    <!--        <div id="home_hours_container" class="home_hours_info">-->
+                    <!--            <script id="home_hours_template" type="x-tmpl-mustache/text">-->
+                    <!--                {%raw%}-->
+                    <!--                <span class="hour_title">Open</span>-->
+                    <!--                <span class="hour_info">Monday - Friday</span>-->
+                    <!--                {%endraw%}-->
+                    <!--            </script>-->
+                    <!--        </div>-->
+                    <!--        <a href="/stores" class="check_hours">Click for individual retailer hours.</a>-->
+                    <!--    </div>-->
+                    <!--</div> -->
+                    <div class="right_feature_box">
+                        <span class="feature_label">NEW & EXCITING</span>   
+                        <div class="feature_box" id="feature_item">
+                            <script id="feature_item_template" type="x-tmpl-mustache/text">
+                                {%raw%}
+                                <a href="{{url}}">
+                                    <img alt="feature_image" src="{{image_url}}" />
+                                </a>
+                                {%endraw%}
+                            </script>
                         </div>
-                    </div> 
+                    </div>
                     <div class="right_feature_box">
                         <span class="feature_label">NEW & EXCITING</span>   
                         <div class="feature_box" id="feature_item">
