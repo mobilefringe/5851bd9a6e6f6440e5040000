@@ -200,12 +200,12 @@
                             <li>
                                 <a class="nav_a" href='/pages/spectrumsquare-location' target='_self'><span>Location & Directions</span></a>                          
                             </li>
-                            <li>
-                                <a class="nav_a" href='/pages/spectrumsquare-directions' target='_self'><span>Directions</span></a>                      
-                            </li>
-                            <li>
-                                <a class="nav_a" href='/pages/spectrumsquare-hours' target='_self'><span>Hours</span></a>                                
-                            </li>
+                            <!--<li>-->
+                            <!--    <a class="nav_a" href='/pages/spectrumsquare-directions' target='_self'><span>Directions</span></a>                      -->
+                            <!--</li>-->
+                            <!--<li>-->
+                            <!--    <a class="nav_a" href='/pages/spectrumsquare-hours' target='_self'><span>Hours</span></a>                                -->
+                            <!--</li>-->
                             <li>
                                 <a class="nav_a" href='/pages/spectrumsquare-accessibility' target='_self'><span>Accessibility</span></a>                
                             </li>
