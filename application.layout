@@ -266,8 +266,7 @@
                             // <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 // {%raw%}
                                 <a href="//triovest.com/en/tenant-services/">
-                                    <img alt="
-                                    {{name}}" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1535493345824/serviceconnect_logo_eng.png" />
+                                    <img alt="{{name}}" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1535493345824/serviceconnect_logo_eng.png" />
                                 </a>
                                 // {%endraw%}
                             <!--</script>-->
