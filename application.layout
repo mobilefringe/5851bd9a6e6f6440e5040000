@@ -79,7 +79,7 @@
                         <!--    <a href='/pages/spectrumsquare-the-eatery'>The Eatery</a>-->
                         <!--</li>-->
                         <li class="mobile_menu_header">
-                            <a>EVENTS & PROMOTIONS</a>
+                            <a>EVENTS</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/events' >Special Events</a>
