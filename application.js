@@ -597,6 +597,7 @@ function load_map(reg, stores){
         source: getSVGMapURL(),    // Path to SVG map
         colors: {stroke: '#aaaaaa', selected: -20, hover: "#a6a6a6"},
         height:400,
+        width:'100%',
         disableAll: true,
         regions: reg,
         tooltipsMode: 'custom',
