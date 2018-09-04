@@ -70,7 +70,7 @@
                             <a>TENANT SERVICES</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='//triovest.com/en/tenant-services/'>Service Connect</a>
+                            <a href='//triovest.com/en/tenant-services/' target="_blank">Service Connect</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/pages/spectrumsquare-the-building'>Tenant Newsletter</a>
