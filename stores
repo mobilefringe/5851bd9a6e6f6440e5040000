@@ -1,5 +1,9 @@
 <div class="store_list_map">
-    
+    <h1 class="page_title">Centre Map</h1>
+	<hr/>
+	<div class="store_list_map_div">
+        <div id="mapsvg_store_list"></div>     
+    </div>
 </div>
 
 <div class="store_list">
