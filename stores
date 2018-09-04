@@ -137,7 +137,7 @@ $(document).ready(function(e){
             $(".category_tab").show();            
         });
         regions = {};
-        var stores = getStoresList();
+        // var stores = getStoresList();
         $.each(stores, function(key, val) {
             if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                 obj = {};
