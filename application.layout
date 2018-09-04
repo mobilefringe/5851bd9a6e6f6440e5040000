@@ -54,7 +54,7 @@
                             <a>DIRECTORY</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/map'>Office</a>
+                            <a href='/stores'>Office</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/stores'>Retail</a>
@@ -160,7 +160,7 @@
                                 <a class="nav_a" href='/stores' target='_self'><span>Retail</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/map' target='_self'><span>Office</span></a>                                
+                                <a class="nav_a" href='/stores' target='_self'><span>Office</span></a>                                
                             </li>
                         </ul>
                     </li>               
@@ -351,7 +351,7 @@
               <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
               <!--                  <a class="site_map_submenu" href='/stores' target='_self'>Office</a>-->
               <!--                  <a class="accessible" href="#main" style="display:none" >[Skip to Content]</a>-->
-              <!--                  <a class="site_map_submenu" href='/map' target='_self'>Retail</a>-->
+              <!--                  <a class="site_map_submenu" href='/stores' target='_self'>Retail</a>-->
               <!--              </div>-->
               <!--              <div class="nav_sitemap_item">-->
               <!--                  <span class="site_map_title">-->
