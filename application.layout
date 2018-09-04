@@ -92,12 +92,12 @@
                         <li class="mobile_menu_item">
                             <a href='/pages/spectrumsquare-location-directions'>Location & Directions</a>
                         </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/spectrumsquare-directions'>Directions</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/spectrumsquare-hours'>Shopping Hours</a>
-                        </li>
+                        <!--<li class="mobile_menu_item">-->
+                        <!--    <a href='/pages/spectrumsquare-directions'>Directions</a>-->
+                        <!--</li>-->
+                        <!--<li class="mobile_menu_item">-->
+                        <!--    <a href='/pages/spectrumsquare-hours'>Shopping Hours</a>-->
+                        <!--</li>-->
                         <li class="mobile_menu_item">
                             <a href='/pages/spectrumsquare-accessibility'>Accessibility</a>
                         </li>
