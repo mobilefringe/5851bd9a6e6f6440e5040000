@@ -51,7 +51,7 @@
                     </button>
                     <ul class="dropdown-menu bottom">                                
                         <li class="mobile_menu_header" >
-                            <a>RETAILERS</a>
+                            <a>DIRECTORY</a>
                         </li>
                         <li class="mobile_menu_item">
                             <a href='/map'>Office</a>
