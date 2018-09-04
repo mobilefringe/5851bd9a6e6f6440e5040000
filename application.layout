@@ -75,9 +75,9 @@
                         <li class="mobile_menu_item">
                             <a href='/pages/spectrumsquare-the-building'>Tenant Newsletter</a>
                         </li>
-                        <li class="mobile_menu_item">
-                            <a href='/pages/spectrumsquare-the-eatery'>The Eatery</a>
-                        </li>
+                        <!--<li class="mobile_menu_item">-->
+                        <!--    <a href='/pages/spectrumsquare-the-eatery'>The Eatery</a>-->
+                        <!--</li>-->
                         <li class="mobile_menu_header">
                             <a>EVENTS & PROMOTIONS</a>
                         </li>
