@@ -831,6 +831,11 @@ a.btn-nav {
     position: absolute;
     top: 0;
     background: #fff;
+    img {
+        border: 2px solid #000;
+    border-top: none;
+}
+    }
 }
 
 
