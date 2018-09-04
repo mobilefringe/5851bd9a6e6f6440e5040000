@@ -54,11 +54,12 @@
                             <a>RETAILERS</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/stores'>Retail</a>
-                        </li>
-                        <li class="mobile_menu_item">
                             <a href='/map'>Office</a>
                         </li>
+                        <li class="mobile_menu_item">
+                            <a href='/stores'>Retail</a>
+                        </li>
+                       
                         <li class="mobile_menu_header">
                             <a href='/pages/spectrumsquare-office-leasing'>OFFICE LEASING</a>
                         </li>
