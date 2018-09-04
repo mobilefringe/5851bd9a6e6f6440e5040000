@@ -22,6 +22,7 @@ $(document).ready(function(e){
             if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                 obj = {};
                 obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div>"
+                obj["popover"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div> <a href='/stores/"+store_details.slug+"'>View Details</a>"
                 obj["attr"] = {}
                 obj["attr"]["href"] = "/stores/" + val.slug
                 regions[val.svgmap_region] = obj
