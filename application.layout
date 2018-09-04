@@ -198,7 +198,7 @@
                         <button class="btn-nav" data-toggle="dropdown">VISITING US</button>                                                     
                         <ul class="dropdown-menu">                            
                             <li>
-                                <a class="nav_a" href='/pages/spectrumsquare-location' target='_self'><span>Location & Directions</span></a>                          
+                                <a class="nav_a" href='/pages/spectrumsquare-location-directions' target='_self'><span>Location & Directions</span></a>                          
                             </li>
                             <!--<li>-->
                             <!--    <a class="nav_a" href='/pages/spectrumsquare-directions' target='_self'><span>Directions</span></a>                      -->
