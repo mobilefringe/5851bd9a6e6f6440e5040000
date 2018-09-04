@@ -826,10 +826,11 @@ a.btn-nav {
 #centre_logo{
     float: left;
     height: auto;
-    padding-bottom: 10px;
+       padding-bottom: 8px;
     z-index: 900;
     position: absolute;
     top: 0;
+    background: #fff;
 }
 
 
