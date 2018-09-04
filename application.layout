@@ -81,12 +81,12 @@
                         <li class="mobile_menu_header">
                             <a href="/events" >EVENTS</a>
                         </li>
-                        <li class="mobile_menu_item">
-                            <a href='/events' >Special Events</a>
-                        </li>
-                        <li class="mobile_menu_item">
-                            <a href='/promotions' >Retailer Promotions</a>
-                        </li>
+                        <!--<li class="mobile_menu_item">-->
+                        <!--    <a href='/events' >Special Events</a>-->
+                        <!--</li>-->
+                        <!--<li class="mobile_menu_item">-->
+                        <!--    <a href='/promotions' >Retailer Promotions</a>-->
+                        <!--</li>-->
                         <li class="mobile_menu_header" >
                             <a>VISITING US</a>
                         </li> 
