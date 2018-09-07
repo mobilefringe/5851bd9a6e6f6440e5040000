@@ -307,7 +307,7 @@ $(document).ready(function(e){
                 _.forEach(svgList(), function(val, key) {
                     
                     if(val !== null) {
-                        
+                        console.log(val, element);
                         var element = document.getElementById(val);
                         if (element){
                             // console.log(val, element);
