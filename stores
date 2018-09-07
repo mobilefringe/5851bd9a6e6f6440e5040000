@@ -310,7 +310,7 @@ $(document).ready(function(e){
                         
                         var element = document.getElementById(val);
                         if (element){
-                            console.log(val, element);
+                            // console.log(val, element);
                             elBBox = element.getBoundingClientRect();
                             // console.log(elBBox);
                             
