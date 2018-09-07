@@ -1,0 +1,315 @@
+<div class="store_list_map">
+    <h1 class="page_title">Centre Map</h1>
+	<hr/>
+	<div class="store_list_map_div">
+        <!--<div id="mapsvg_store_list"></div>     -->
+        <div id="mapplic" class="mapplic"></div>
+    </div>
+</div>
+
+<div class="store_list">
+    <h1 class="page_title">Store List</h1>
+    <hr>
+    <div class="tabbable">
+        <ul class="nav nav-tabs store_tabs">
+            <li class="active tab_colour store_tab">
+                <a href="#list" data-toggle="tab">
+                    <span>A - Z <span class="arrow-down"></span>    </span>                     
+                </a>
+            </li>
+            <li class="category_tab">
+                <a href="#category" data-toggle="tab">
+                    <span>CATEGORIES <span class="arrow-down"></span>    </span>
+                </a>                
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="list" class="tab-pane active">
+                <div class="alphabet_bg">
+                    <button class="btn-secondary" onClick="parent.location='#A'">A</button>
+                    <button class="btn-secondary" onClick="parent.location='#B'">B</button>
+                    <button class="btn-secondary" onClick="parent.location='#C'">C</button>
+                    <button class="btn-secondary" onClick="parent.location='#D'">D</button>
+                    <button class="btn-secondary" onClick="parent.location='#E'">E</button>
+                    <button class="btn-secondary" onClick="parent.location='#F'">F</button>
+                    <button class="btn-secondary" onClick="parent.location='#G'">G</button>
+                    <button class="btn-secondary" onClick="parent.location='#H'">H</button>
+                    <button class="btn-secondary" onClick="parent.location='#I'">I</button>
+                    <button class="btn-secondary" onClick="parent.location='#J'">J</button>
+                    <button class="btn-secondary" onClick="parent.location='#K'">K</button>
+                    <button class="btn-secondary" onClick="parent.location='#L'">L</button>
+                    <button class="btn-secondary" onClick="parent.location='#M'">M</button>
+                    <button class="btn-secondary" onClick="parent.location='#N'">N</button>
+                    <button class="btn-secondary" onClick="parent.location='#O'">O</button>
+                    <button class="btn-secondary" onClick="parent.location='#P'">P</button>
+                    <button class="btn-secondary" onClick="parent.location='#Q'">Q</button>
+                    <button class="btn-secondary" onClick="parent.location='#R'">R</button>
+                    <button class="btn-secondary" onClick="parent.location='#S'">S</button>
+                    <button class="btn-secondary" onClick="parent.location='#T'">T</button>
+                    <button class="btn-secondary" onClick="parent.location='#U'">U</button>
+                    <button class="btn-secondary" onClick="parent.location='#V'">V</button>
+                    <button class="btn-secondary" onClick="parent.location='#W'">W</button>
+                    <button class="btn-secondary" onClick="parent.location='#X'">X</button>
+                    <button class="btn-secondary" onClick="parent.location='#Y'">Y</button>
+                    <button class="btn-secondary" onClick="parent.location='#Z'">Z</button>
+                </div>
+                <div class="store_list" id="store_list_container">
+                    <script id="store_list_template" type="x-tmpl-mustache/text">
+                        <div class="store_list_content">
+                            <div class="stores_table_headers" style="{{show}}">
+                                <a id="{{initial}}"></a>{{initial}}
+                                <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
+                            </div>
+                            <div class="stores_row store_row_name">
+                                <a href="/retail/{{slug}}">{{name}}</a>
+                            </div>
+                            <div class="pull-right stores_row stores_row_phone">
+                                <span style="{{promotion_exist}}">
+                                    <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
+                                </span>
+                                <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
+                                <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                    <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
+                                </a></span>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+            </div>
+            <div id="category" class="tab-pane">
+                <div class="alphabet_bg" id="categories_container">
+                    <script id="categories_template" type="x-tmpl-mustache/text">
+                        <button class="btn-secondary" onClick="parent.location='#{{name}}'" name="{{name}}">{{name}}</button>
+                        <span class="category_divider hidden-sm">|</span>
+                    </script>
+                </div>
+                <div class="store_list" id="category_list_container">
+                    <script id="category_list_template" type="x-tmpl-mustache/text">
+                        <div class="store_list_content {{block}}">
+                            <div class="stores_table_headers bold" style="{{show}}">
+                                <a id="{{header}}"></a>{{header}}
+                                <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
+                            </div>
+                            <div class="stores_row store_row_name">
+                                <a href="/retail/{{slug}}">{{name}}</a>
+                            </div>
+                            <div class="pull-right stores_row stores_row_phone">
+                                <span style="{{promotion_exist}}">
+                                    <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png"/>
+                                </span>
+                                <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
+                                <span><a class="visible-xs-inline-block"style="{{phone_exist}}" href="tel:{{phone}}">
+                                    <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
+                                </a></span>
+                            </div>
+                        </div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="line_break"></div>
+
+<link href="//codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/css/1510935230000/mapplic.css" rel="stylesheet">
+<link href="//codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/css/1485967426000/map.css" rel="stylesheet">
+<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jquery-mousewheel/3.1.13/jquery.mousewheel.min.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/5ac273ae6e6f640f0c1b0000/text/javascript/1520365246170/mapplic_mmsdk.js"></script>
+<script src="//codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+
+<!--https://www.mallmaverick.com/system/site_images/photos/000/042/927/original/Spectrum_Square_-_Map_-_Sep-07-2018.svg?1536349645-->
+
+<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.js"></script>-->
+<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/raphael.js"></script>-->
+<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel.js"></script> -->
+<!--<script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>-->
+<script>
+$(document).ready(function(e){
+    init(e);
+    function renderAll (){
+        var stores = getStoresList();
+        var categories = getStoreCategories();
+        var category_list = [];
+        $.each( categories, function( key, val ){
+            if (val.store_ids != null) {
+                category_list.push(val);
+            } 
+        });
+        
+        renderStoreList('#store_list_container','#store_list_template', stores, "stores");
+        renderStoreListCatetories('#category_list_container','#category_list_template', category_list, stores);
+        renderGeneral('#categories_container', '#categories_template', category_list, stores);
+        
+        setTimeout(function() {
+            show_content();
+        }, 500);
+        
+        $(".store_tab").hide();
+    
+        $(".category_tab a").click(function(){
+            $(".category_tab").hide();
+            $(".store_tab").show();
+        })
+        
+        $(".store_tab a").click(function(){
+            $(".store_tab").hide();
+            $(".category_tab").show();            
+        });
+        // regions = {};
+        // // var stores = getStoresList();
+        // $.each(stores, function(key, val) {
+        //     if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+        //         obj = {};
+        //         // obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div>"
+        //         obj["popover"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div> <a class='popover_btn' href='/retail/"+val.slug+"'>View Details</a>"
+        //         obj["attr"] = {}
+        //         // obj["attr"]["href"] = "/retail/" + val.slug
+        //         regions[val.svgmap_region] = obj
+        //     }
+        // });
+        // load_map(regions, stores);
+        var mall_json = {};
+            var landmarks = {};
+            mall_json.mapwidth = "1000";
+            mall_json.mapheight = "1000";
+            mall_json.categories = [];
+            mall_json.levels = [];
+            
+            // need to add the following for each floor we want to configure.
+            _.forEach(floorList(), function(value, key) { 
+                var floor_1 = {};
+                floor_1.id = value.id;
+                floor_1.title = value.title;
+                floor_1.map = value.map;
+                
+                floor_1.show = value.show;
+                floor_1.locations = [];
+                // var stores_on_floors =  _.filter(stores, function(o) {return value.z_index === o.z_coordinate;}); // ['z_coordinate', value.z_index]);
+                _.forEach(stores, function(val, key) {
+                    //for testing limiting the store numbers to vm
+                    var temp_val = {};
+                    temp_val.id = val.svgmap_region;
+                    temp_val.title = val.name;
+                    temp_val.description = "<i class='fa fa-phone'></i>" +val.phone;
+                    if(val.categories != null) {
+                        if(val.categories.length>1){
+                        temp_val.category = val.categories[1];
+                        }
+                        else {
+                            temp_val.category = val.categories[0];
+                        }
+                    }
+                    temp_val.link = "/retail/" + val.slug;
+                    temp_val.pin = "hidden";
+                   
+                    
+                    //get svg's wifth/height by checking the map
+                    var svg_width = 2500;
+                    var svg_height = 2500;
+
+                    temp_val.x = val.x_coordinate / svg_width;
+                    temp_val.y = val.y_coordinate / svg_height;
+                    floor_1.locations.push(temp_val);
+                });
+                mall_json.levels.push(floor_1);
+            });
+            console.log("mall_json",mall_json)
+            map = $('#mapplic').mapplic({
+            	source: mall_json,
+            	height: 585,
+            	landmark : true,
+            	mapfill:true,
+            	minimap: false,
+            	sidebar: false,
+            	hovertip: true,
+            	developer: false,
+            	fullscreen : false,
+            	clearbutton: false,
+            	deeplinking: false,
+            	fillcolor : "none",
+            	maxscale: 5,
+            	skin: 'mapplic-dark',
+            	tooltiplabel : 'View More'
+            });
+            
+            map.on('mapready', function(e, self) {
+				console.log('Map is ready!');
+				mapLoaded(map);
+			});
+            function floorList () {
+                var floor_list = [];
+                
+                var floor_1 = {};
+                floor_1.id = "first-floor";
+                floor_1.title = "Level One";
+                floor_1.map =  ("https://www.mallmaverick.com/system/site_images/photos/000/042/927/original/Spectrum_Square_-_Map_-_Sep-07-2018_-_1.svg?1536352133").split("?")[0];
+                floor_1.z_index = 1;
+                floor_1.show = true;
+                floor_list.push(floor_1);
+                return floor_list;
+            }
+            function svgList () {
+                return _.map(stores, 'svgmap_region');
+            }
+            function mapLoaded (map){
+                self = map.data('mapplic');
+                var svg = document.getElementById('landmarks-1');
+                //get floors to be visible 
+                $(".mapplic-layer").show();
+                //go through all the regions and recalculat the locations
+                _.forEach(svgList(), function(val, key) {
+                    
+                    if(val !== null) {
+                        var element = document.getElementById(val);
+                        if (element){
+                            elBBox = element.getBoundingClientRect();
+                            // console.log(elBBox);
+                            
+                            var viewport_center_x = 0;
+                            var viewport_center_y = 0;
+                            viewport_center_x = (_.toNumber(elBBox.left) + _.toNumber(elBBox.right) )/2;
+                            viewport_center_y = (_.toNumber(elBBox.top) + _.toNumber(elBBox.bottom) )/2;
+                            // console.log("viewport_x",viewport_center_x,viewport_center_y);
+                            pt = svg.createSVGPoint();
+                            pt.x = viewport_center_x;
+                            pt.y = viewport_center_y;
+                            // console.log("pt", pt.x, pt.y)
+                            var svgP = pt.matrixTransform(svg.getScreenCTM().inverse());
+                            // console.log("svg points", svgP.x,svgP.y);
+                            var new_x = svgP.x/ 2500;
+                            var new_y = svgP.y/ 2500;
+                            var location = self.getLocationData(val);
+                            console.log("nex_x, y", new_x, new_y)
+                            if(location !== null && location.el){
+                                location.x = new_x;
+                                location.y =  new_y;
+                                self.updateLocation(val);
+                            }
+                        }
+                    }
+                });
+                // console.log("self", vm.self);
+                //find which levels need to be hidden
+                hidden_level = _.filter(self.data.levels , function (o){ 
+                    // console.log (o); 
+                    return o.show !== true;
+                });
+                //doing it in a loop for future cases where there are more than two floors
+                _.forEach(hidden_level, function(val, key) {
+                    $(".mapplic-layer[data-floor='"+val.id+"']").hide();
+                });
+                setTimeout(function() {
+                    show_content();
+                }, 500);
+            }
+    }
+    loadMallDataCached(renderAll); 
+    function dropPin(svgmap_region) {
+        console.log(svgmap_region)
+        self = map.data('mapplic');
+        self.showLocation(svgmap_region);
+    //   this.$refs.mapplic_ref.showLocation(store.svgmap_region);
+    }
+})
+</script>
