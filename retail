@@ -130,7 +130,7 @@ $(document).ready(function(e){
     function renderAll (){
         // var stores = getStoresList();
 
-        var cat_id = getCategoryDetailsByName('Office');
+        var cat_id = getCategoryDetailsByName('Restaurants');
         if(cat_id !== null && cat_id !== undefined) {
             cat_id = cat_id.id;
         }
