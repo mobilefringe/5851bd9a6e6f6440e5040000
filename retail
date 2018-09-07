@@ -235,7 +235,7 @@ $(document).ready(function(e){
                     var temp_val = {};
                     temp_val.id = val.svgmap_region;
                     temp_val.title = val.name;
-                    temp_val.about = val.phone;
+                    temp_val.description = val.phone;
                     if(val.categories != null) {
                         if(val.categories.length>1){
                         temp_val.category = val.categories[1];
@@ -291,7 +291,6 @@ $(document).ready(function(e){
                 floor_1.z_index = 1;
                 floor_1.show = true;
                 floor_list.push(floor_1);
-                console.log("getSVGMapURL", getSVGMapURL());
                 return floor_list;
             }
             function svgList () {
@@ -300,19 +299,14 @@ $(document).ready(function(e){
             function mapLoaded (map){
                 self = map.data('mapplic');
                 var svg = document.getElementById('landmarks-1');
-                // console.log("svgList",svgList())
-                // console.log("svg", svg)
                 //get floors to be visible 
                 $(".mapplic-layer").show();
                 //go through all the regions and recalculat the locations
                 _.forEach(svgList(), function(val, key) {
                     
                     if(val !== null) {
-                        
                         var element = document.getElementById(val);
-                        console.log(val, element);
                         if (element){
-                            console.log(val, element);
                             elBBox = element.getBoundingClientRect();
                             // console.log(elBBox);
                             
