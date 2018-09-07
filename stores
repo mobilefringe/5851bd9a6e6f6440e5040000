@@ -258,7 +258,7 @@ $(document).ready(function(e){
                 });
                 mall_json.levels.push(floor_1);
             });
-            
+            console.log("mall_json",mall_json)
             map = $('#mapplic').mapplic({
             	source: mall_json,
             	height: 585,
