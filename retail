@@ -135,7 +135,6 @@ $(document).ready(function(e){
             cat_id = cat_id.id;
         }
         var stores = _.filter(getStoresList(), function(o){
-            console.log(o.categories, cat_id,  !_.includes(o.categories, _.toNumber(cat_id)))
             return !_.includes(o.categories,  _.toNumber(cat_id));
         });        
         
