@@ -287,7 +287,7 @@ $(document).ready(function(e){
                 var floor_1 = {};
                 floor_1.id = "first-floor";
                 floor_1.title = "Level One";
-                floor_1.map =  getSVGMapURL().split("?")[0];
+                floor_1.map =  ("https://www.mallmaverick.com/system/site_images/photos/000/042/927/original/Spectrum_Square_-_Map_-_Sep-07-2018.svg?1536349645").split("?")[0];
                 floor_1.z_index = 1;
                 floor_1.show = true;
                 floor_list.push(floor_1);
