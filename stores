@@ -300,7 +300,7 @@ $(document).ready(function(e){
             function mapLoaded (map){
                 self = map.data('mapplic');
                 var svg = document.getElementById('landmarks-1');
-                console.log("svgList")
+                console.log("svgList",svgList)
                 //get floors to be visible 
                 $(".mapplic-layer").show();
                 //go through all the regions and recalculat the locations
