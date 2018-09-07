@@ -128,7 +128,7 @@
 $(document).ready(function(e){
     init(e);
     function renderAll (){
-        var cat_id = getCategoryDetailsByName('Restaurants');
+        var cat_id = getCategoryDetailsByName('Office');
         if(cat_id !== null && cat_id !== undefined) {
             cat_id = cat_id.id;
         }
