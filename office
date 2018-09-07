@@ -128,8 +128,9 @@
 $(document).ready(function(e){
     init(e);
     function renderAll (){
+        var cat_id = getCategoryDetailsByName('Restaurants');
         var stores = _.filter(getStoresList(), function(o){
-            
+            return o.
         });
         
         var categories = getStoreCategories();
