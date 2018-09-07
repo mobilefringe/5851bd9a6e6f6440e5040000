@@ -54,10 +54,10 @@
                             <a>DIRECTORY</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/stores'>Office</a>
+                            <a href='/office'>Office</a>
                         </li>
                         <li class="mobile_menu_item">
-                            <a href='/stores'>Retail</a>
+                            <a href='/retail'>Retail</a>
                         </li>
                        
                         <li class="mobile_menu_header">
