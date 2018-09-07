@@ -299,7 +299,7 @@ $(document).ready(function(e){
             }
             function mapLoaded (map){
                 self = map.data('mapplic');
-                var svg = document.getElementById('Layer_x5F_1');
+                var svg = document.getElementById('landmarks-1');
                 
                 //get floors to be visible 
                 $(".mapplic-layer").show();
