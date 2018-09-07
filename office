@@ -135,7 +135,7 @@ $(document).ready(function(e){
         var stores = _.filter(getStoresList(), function(o){
             return _.includes(o.categories, cat_id);
         });
-        
+        console.log("stores", stores)
         var categories = getStoreCategories();
         var category_list = [];
         $.each( categories, function( key, val ){
