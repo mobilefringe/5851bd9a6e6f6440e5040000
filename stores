@@ -295,7 +295,7 @@ $(document).ready(function(e){
                 return floor_list;
             }
             function svgList () {
-                return _.map(getStoresList(), 'svgmap_region');
+                return _.map(stores, 'svgmap_region');
             }
             function mapLoaded (map){
                 self = map.data('mapplic');
