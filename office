@@ -138,7 +138,7 @@ $(document).ready(function(e){
         var categories = getStoreCategories();
         var category_list = [];
         $.each( categories, function( key, val ){
-            if (val.store_ids != null  && val.id == _.toNumber(cat_id)) {
+            if (val.store_ids != null  && _.toNumber(val.id) == _.toNumber(cat_id)) {
                 category_list.push(val);
             } 
         });
