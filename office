@@ -129,6 +129,9 @@ $(document).ready(function(e){
     init(e);
     function renderAll (){
         var cat_id = getCategoryDetailsByName('Restaurants');
+        if(cat_id !== null && cat_id !== undefined) {
+            cat_id = cat_id.id;
+        }
         var stores = _.filter(getStoresList(), function(o){
             return _.includes(o.categories, cat_id);
         });
