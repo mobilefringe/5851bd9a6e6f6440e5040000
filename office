@@ -128,7 +128,7 @@
 $(document).ready(function(e){
     init(e);
     function renderAll (){
-        var stores = getStoresList();
+        var stores = [];//getStoresList();
         var categories = getStoreCategories();
         var category_list = [];
         $.each( categories, function( key, val ){
@@ -156,19 +156,7 @@ $(document).ready(function(e){
             $(".store_tab").hide();
             $(".category_tab").show();            
         });
-        // regions = {};
-        // // var stores = getStoresList();
-        // $.each(stores, function(key, val) {
-        //     if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
-        //         obj = {};
-        //         // obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div>"
-        //         obj["popover"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div> <a class='popover_btn' href='/retail/"+val.slug+"'>View Details</a>"
-        //         obj["attr"] = {}
-        //         // obj["attr"]["href"] = "/retail/" + val.slug
-        //         regions[val.svgmap_region] = obj
-        //     }
-        // });
-        // load_map(regions, stores);
+
         var mall_json = {};
             var landmarks = {};
             mall_json.mapwidth = "1000";
