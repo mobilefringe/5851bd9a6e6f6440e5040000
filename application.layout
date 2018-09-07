@@ -346,7 +346,7 @@
                     <div class="nav_site_map hidden-xs">
                         <label for="nav_site_map_link_id" > 
                         <i class="fa fa-map-marker social_icon" aria-hidden="true"></i>
-                        Location</label>
+                        LOCATION</label>
               <!--          <div class="site_map_cols">-->
               <!--              <div class="nav_sitemap_item">-->
               <!--                  <span class="site_map_title">DIRECTORY</span>-->
