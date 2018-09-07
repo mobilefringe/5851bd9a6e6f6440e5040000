@@ -61,7 +61,7 @@
                                 <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="stores_row store_row_name">
-                                <a href="/stores/{{slug}}">{{name}}</a>
+                                <a href="/retail/{{slug}}">{{name}}</a>
                             </div>
                             <div class="pull-right stores_row stores_row_phone">
                                 <span style="{{promotion_exist}}">
@@ -91,7 +91,7 @@
                                 <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="stores_row store_row_name">
-                                <a href="/stores/{{slug}}">{{name}}</a>
+                                <a href="/retail/{{slug}}">{{name}}</a>
                             </div>
                             <div class="pull-right stores_row stores_row_phone">
                                 <span style="{{promotion_exist}}">
@@ -206,9 +206,9 @@ $(document).ready(function(e){
         //     if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
         //         obj = {};
         //         // obj["tooltip"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div>"
-        //         obj["popover"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div> <a class='popover_btn' href='/stores/"+val.slug+"'>View Details</a>"
+        //         obj["popover"] = "<div class='tooltip_div'><p class='tooltip_name'>" + val.name + "</p><div class='tooltip_phone_div'><i class='tooltip_phone_icon fa fa-phone' aria-hidden='true'></i><p class='tooltip_phone'>" + val.phone + "</p></div> <a class='popover_btn' href='/retail/"+val.slug+"'>View Details</a>"
         //         obj["attr"] = {}
-        //         // obj["attr"]["href"] = "/stores/" + val.slug
+        //         // obj["attr"]["href"] = "/retail/" + val.slug
         //         regions[val.svgmap_region] = obj
         //     }
         // });
@@ -244,7 +244,7 @@ $(document).ready(function(e){
                             temp_val.category = val.categories[0];
                         }
                     }
-                    temp_val.link = "/stores/" + val.slug;
+                    temp_val.link = "/retail/" + val.slug;
                     temp_val.pin = "hidden";
                    
                     
