@@ -160,7 +160,7 @@
                                 <a class="nav_a" href='/retail' target='_self'><span>Retail</span></a>                                
                             </li>
                             <li>
-                                <a class="nav_a" href='/stores' target='_self'><span>Office</span></a>                                
+                                <a class="nav_a" href='/office' target='_self'><span>Office</span></a>                                
                             </li>
                         </ul>
                     </li>               
