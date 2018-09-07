@@ -318,6 +318,7 @@
     <footer>
         <div class="bottom_nav trim_screen">
         	<div class="row-fluid">
+        	<div class="col-sm-12 col-md-1"></div>
                 <div class="col-sm-6 col-md-4">
                     <div class="newsletter_box">
                         <form action=https://mobilefringe.createsend.com/t/d/s/duhrs/ method="post" id="subForm">
