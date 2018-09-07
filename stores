@@ -161,6 +161,7 @@
 <script src="//codecloud.cdn.speedyrails.net/sites/5ac273ae6e6f640f0c1b0000/text/javascript/1520365246170/mapplic_mmsdk.js"></script>
 <script src="//codecloud.cdn.speedyrails.net/sites/59bac7db6e6f644f22ba0000/text/javascript/1484859750000/hammer.min.js"></script>
 <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+
 <!--https://www.mallmaverick.com/system/site_images/photos/000/042/927/original/Spectrum_Square_-_Map_-_Sep-07-2018.svg?1536349645-->
 <div class="line_break"></div>
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.js"></script>
