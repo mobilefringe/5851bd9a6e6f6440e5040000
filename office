@@ -134,7 +134,7 @@ $(document).ready(function(e){
         }
         var stores = _.filter(getStoresList(), function(o){
             console.log(o.categories, cat_id,  _.includes(o.categories, _.toNumber(cat_id)))
-            return _.includes(o.categories,  _.toNumber(cat_id)
+            return _.includes(o.categories,  _.toNumber(cat_id));
         });
         console.log("stores", stores)
         var categories = getStoreCategories();
