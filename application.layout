@@ -349,7 +349,7 @@
                         <i class="fa fa-map-marker social_icon" aria-hidden="true"></i>
                         LOCATION</label>
                         <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2165.233122004564!2d-79.60741495591516!3d43.65021048005488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b385800914873%3A0x81619e6a6ca2e52c!2sSpectrum+Square%2C+Spectrum+Way%2C+Mississauga%2C+ON!5e0!3m2!1sen!2sca!4v1536353672368" width="100%" height="250" frameborder="0" style="border:1px solid #ddd" allowfullscreen class="hidden-xs"></iframe>
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2165.233122004564!2d-79.60741495591516!3d43.65021048005488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b385800914873%3A0x81619e6a6ca2e52c!2sSpectrum+Square%2C+Spectrum+Way%2C+Mississauga%2C+ON!5e0!3m2!1sen!2sca!4v1536353672368" width="600" height="250" frameborder="0" style="border:0" allowfullscreen class="visible-xs"></iframe>
+                        <!--<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2165.233122004564!2d-79.60741495591516!3d43.65021048005488!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b385800914873%3A0x81619e6a6ca2e52c!2sSpectrum+Square%2C+Spectrum+Way%2C+Mississauga%2C+ON!5e0!3m2!1sen!2sca!4v1536353672368" width="600" height="250" frameborder="0" style="border:0" allowfullscreen class="visible-xs"></iframe>-->
               <!--          <div class="site_map_cols">-->
               <!--              <div class="nav_sitemap_item">-->
               <!--                  <span class="site_map_title">DIRECTORY</span>-->
