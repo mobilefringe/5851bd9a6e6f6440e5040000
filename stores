@@ -109,7 +109,7 @@
         </div>
     </div>
 </div>
-
+<div class="line_break"></div>
 <style>
     .mapplic-pin{
         /*background-color: transparent!important;    */
@@ -163,7 +163,7 @@
 <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
 
 <!--https://www.mallmaverick.com/system/site_images/photos/000/042/927/original/Spectrum_Square_-_Map_-_Sep-07-2018.svg?1536349645-->
-<div class="line_break"></div>
+
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.js"></script>
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/raphael.js"></script>
 <script type="text/javascript" src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel.js"></script> 
