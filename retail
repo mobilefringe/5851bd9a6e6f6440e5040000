@@ -128,8 +128,16 @@
 $(document).ready(function(e){
     init(e);
     function renderAll (){
-        var stores = getStoresList();
-        var categories = getStoreCategories();
+        // var stores = getStoresList();
+
+var cat_id = getCategoryDetailsByName('Restaurants');
+        if(cat_id !== null && cat_id !== undefined) {
+            cat_id = cat_id.id;
+        }
+        var stores = _.filter(getStoresList(), function(o){
+            console.log(o.categories, cat_id,  _.includes(o.categories, _.toNumber(cat_id)))
+            return _.includes(o.categories,  _.toNumber(cat_id));
+        });        var categories = getStoreCategories();
         var category_list = [];
         $.each( categories, function( key, val ){
             if (val.store_ids != null) {
