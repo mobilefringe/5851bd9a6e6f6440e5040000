@@ -53,9 +53,9 @@
                         <li class="mobile_menu_header" >
                             <a>DIRECTORY</a>
                         </li>
-                        <li class="mobile_menu_item">
-                            <a href='/office'>Office</a>
-                        </li>
+                        <!--<li class="mobile_menu_item">-->
+                        <!--    <a href='/office'>Office</a>-->
+                        <!--</li>-->
                         <li class="mobile_menu_item">
                             <a href='/retail'>Retail</a>
                         </li>
@@ -159,9 +159,9 @@
                             <li>
                                 <a class="nav_a" href='/retail' target='_self'><span>Retail</span></a>                                
                             </li>
-                            <li>
-                                <a class="nav_a" href='/office' target='_self'><span>Office</span></a>                                
-                            </li>
+                            <!--<li>-->
+                            <!--    <a class="nav_a" href='/office' target='_self'><span>Office</span></a>                                -->
+                            <!--</li>-->
                         </ul>
                     </li>               
                     <li>                        
