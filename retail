@@ -315,7 +315,6 @@ $(document).ready(function(e){
     }
     loadMallDataCached(renderAll); 
     function dropPin(svgmap_region) {
-        console.log(svgmap_region)
         self = map.data('mapplic');
         self.showLocation(svgmap_region);
     //   this.$refs.mapplic_ref.showLocation(store.svgmap_region);
