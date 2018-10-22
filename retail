@@ -97,7 +97,7 @@
                                 <span style="{{promotion_exist}}">
                                     <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png"/>
                                 </span>
-                                <span style="{{comming_soon}}">
+                                <span style="{{coming_soon}}">
                                     <span>Coming Soon</span>
                                 </span>
                                 <span class="store_phone hidden-xs"><a href="tel:{{phone}}">{{phone}}</a></span>
