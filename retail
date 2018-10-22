@@ -289,7 +289,7 @@ $(document).ready(function(e){
                             var new_x = svgP.x/ 2500;
                             var new_y = svgP.y/ 2500;
                             var location = self.getLocationData(val);
-                            console.log("nex_x, y", new_x, new_y)
+                            // console.log("nex_x, y", new_x, new_y)
                             if(location !== null && location.el){
                                 location.x = new_x;
                                 location.y =  new_y;
