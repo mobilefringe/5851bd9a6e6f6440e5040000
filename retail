@@ -61,10 +61,10 @@
                                 <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="row">
-                                <div class="stores_row store_row_name col-sm-5">
+                                <div class="stores_row store_row_name col-sm-5 col-xs-6">
                                     <a href="/retail/{{slug}}">{{name}}</a>
                                 </div>
-                                <div class="col-sm-3 coming_soon_store stores_row">
+                                <div class="col-sm-3 coming_soon_store stores_row col-xs-2">
                                     <span style="{{coming_soon_tag}}" class="hidden-xs">
                                         Coming Soon
                                     </span>
@@ -72,7 +72,7 @@
                                     <i class="fa fa-star"></i>
                                     </span>
                                 </div>
-                                <div class="pull-right stores_row stores_row_phone col-sm-4">
+                                <div class="pull-right stores_row stores_row_phone col-sm-4 col-xs-4">
                                     <span style="{{promotion_exist}}">
                                         <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
