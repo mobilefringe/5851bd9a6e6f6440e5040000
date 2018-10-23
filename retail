@@ -64,7 +64,7 @@
                                 <div class="stores_row store_row_name col-md-5">
                                     <a href="/retail/{{slug}}">{{name}}</a>
                                 </div>
-                                <div class="col-md-3 coming_soon_store">
+                                <div class="col-md-3 coming_soon_store stores_row">
                                     <span style="{{coming_soon_tag}}">
                                         Coming Soon
                                     </span>
