@@ -68,6 +68,9 @@
                                     <span style="{{coming_soon_tag}} hidden-xs">
                                         Coming Soon
                                     </span>
+                                    <span class="visible-xs-inline-block">
+                                    <i class="fa fa-star"></i>
+                                    </span>
                                 </div>
                                 <div class="pull-right stores_row stores_row_phone col-sm-4">
                                     <span style="{{promotion_exist}}">
