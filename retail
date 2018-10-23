@@ -60,7 +60,8 @@
                                 <a id="{{initial}}"></a>{{initial}}
                                 <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
-                            <div class="stores_row store_row_name">
+                            <div>
+                                <div class="stores_row store_row_name">
                                 <a href="/retail/{{slug}}">{{name}}</a>
                             </div>
                             <div class="pull-right stores_row stores_row_phone">
@@ -75,6 +76,8 @@
                                     <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
                                 </a></span>
                             </div>
+                            </div>
+                            
                         </div>
                     </script>
                 </div>
