@@ -61,10 +61,10 @@
                                 <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="row>
-                                <div class="stores_row store_row_name">
+                                <div class="stores_row store_row_name col-md-4">
                                     <a href="/retail/{{slug}}">{{name}}</a>
                                 </div>
-                                <div class="pull-right stores_row stores_row_phone">
+                                <div class="pull-right stores_row stores_row_phone col-md-8">
                                     <span style="{{promotion_exist}}">
                                         <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
