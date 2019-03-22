@@ -440,7 +440,7 @@ legend{
     padding: 0px 15px 15px;
 }
 
-.bottom_nav .heading {
+.bottom_nav label{
     color: black;
     font-size:1.5em;
     line-height:1.5em;
@@ -750,10 +750,10 @@ legend{
     font-family: futura_medium,futura_medium_light_ie;
     font-size: 1.2em;
     text-align:right;
-    color: #64676c;
+    color: gray;
 }
 .stores_row_phone a {
-    color: #64676c;
+    color: gray;
     text-decoration: none;
 }
 .nav-tabs {
@@ -1359,7 +1359,7 @@ hr{
     height: 55px;
     float: left;
     background-color:#f57b2b;
-    color: white !important;
+    color: #000 !important;
     display:inline-block; 
     font-size:1.5em;
     line-height:2.25em;
