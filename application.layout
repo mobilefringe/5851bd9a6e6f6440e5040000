@@ -122,7 +122,7 @@ l
                         </li>
                     </ul>
                     <a id="mobile_logo" href="/">
-                        <img class="mobile_logo" ALT="mobile_logo" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1554323025000/spectrum-square-logo copy.png"/>
+                        <img class="mobile_logo" ALT="mobile_logo" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1536072593099/spectrum-square-logo.png"/>
                     </a>
                 </div>
                 <!-- iphone header END --> 
@@ -150,7 +150,7 @@ l
         <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
                 <a id="centre_logo" href="/">
-                    <img ALT="centre_logo" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1554323025000/spectrum-square-logo copy.png"/>
+                    <img ALT="centre_logo" src="//codecloud.cdn.speedyrails.net/sites/59b94fa66e6f640e045f0000/image/png/1536072593099/spectrum-square-logo.png"/>
                 </a>
                 <ul>                  
                     <li class="dropdown ">
