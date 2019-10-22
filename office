@@ -76,15 +76,12 @@
                                     <span style="{{promotion_exist}}">
                                         <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
-                                    
                                     <span class="store_phone hidden-xs">
                                         {{#phone}}
                                         <a href="tel:{{phone}}" aria-label="Click to call {{name}}.">
                                             {{phone}}
                                         </a>
                                         {{/phone}}
-                                        
-                                        
                                     </span>
                                     <span><a class="visible-xs-inline-block"  aria-label="Click to call {{name}}." href="tel:{{phone}}">
                                         <img ALT="Phone icon." src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
@@ -125,8 +122,9 @@
                                     <span style="{{promotion_exist}}">
                                         <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
-                                    
+                                    {{#phone}}
                                     <span class="store_phone hidden-xs"><a aria-label="Click to call {{name}}." href="tel:{{phone}}">{{phone}}</a></span>
+                                    {{/phone}}
                                     <span><a class="visible-xs-inline-block" style="{{phone_exist}}" aria-label="Click to call {{name}}." href="tel:{{phone}}">
                                         <img ALT="Phone icon." src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
                                     </a></span>
