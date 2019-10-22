@@ -73,16 +73,21 @@
                                     </span>
                                 </div>
                                 <div class="pull-right stores_row stores_row_phone col-sm-4 col-xs-4">
+                                
+                                    {{#promotion_exist}}
                                     <span style="{{promotion_exist}}">
                                         <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
+                                    {{/promotion_exist}}
+                                    
+                                    {{#phone}}
                                     <span class="store_phone hidden-xs">
-                                        {{#phone}}
+                                       
                                         <a href="tel:{{phone}}" aria-label="Click to call {{name}}.">
                                             {{phone}}
                                         </a>
-                                        {{/phone}}
                                     </span>
+                                    {{/phone}}
                                     
                                     {{#phone}}
                                     <span><a class="visible-xs-inline-block"  aria-label="Click to call {{name}}." href="tel:{{phone}}">
