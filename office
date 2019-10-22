@@ -119,7 +119,7 @@
                                 </div>
                                 <div class="pull-right stores_row stores_row_phone col-sm-4 col-xs-4">
                                     <span style="{{promotion_exist}}">
-                                        <img alt="Promotion icon." src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
+                                        <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
                                     
                                     <span class="store_phone hidden-xs"><a aria-label="Click to call {{name}}." href="tel:{{phone}}">{{phone}}</a></span>
