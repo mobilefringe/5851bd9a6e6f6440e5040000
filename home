@@ -4,9 +4,10 @@
             <li>
                 {{#url}}
                 <a class="banner_image_li" href="{{url}}" >
-                {{/url}}
+                
                     <img src="{{image_url}}" alt=""/>
                 </a>
+                {{/url}}
             </li>
         </script>                
     </ul>        
