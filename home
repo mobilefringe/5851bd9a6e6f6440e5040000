@@ -5,7 +5,7 @@
                 {{#url}}
                 <a class="banner_image_li" href="{{url}}" >
                 {{/url}}
-                    <img src="{{image_url}}" alt=""/>
+                    <img src="{{image_url}}" alt="{{description}}"/>
                 </a>
             </li>
         </script>                
