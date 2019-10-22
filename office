@@ -77,7 +77,11 @@
                                         <img alt="" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038419000/btn_promo.png "/>
                                     </span>
                                     
-                                    <span class="store_phone hidden-xs"><a href="tel:{{phone}}" aria-label="Click to call {{name}}.">{{phone}}</a></span>
+                                    <span class="store_phone hidden-xs">
+                                        <a href="tel:{{phone}}" aria-label="Click to call {{name}}.">
+                                            {{phone}}
+                                        </a>
+                                    </span>
                                     <span><a class="visible-xs-inline-block" style="{{phone_exist}}"  aria-label="Click to call {{name}}." href="tel:{{phone}}">
                                         <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
                                     </a></span>
