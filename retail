@@ -249,7 +249,6 @@ $(document).ready(function(e){
                 });
                 mall_json.levels.push(floor_1);
             });
-            console.log("mall_json",mall_json)
             map = $('#mapplic').mapplic({
             	source: mall_json,
             	height: 585,
@@ -300,23 +299,18 @@ $(document).ready(function(e){
                         var element = document.getElementById(val);
                         if (element){
                             elBBox = element.getBoundingClientRect();
-                            // console.log(elBBox);
                             
                             var viewport_center_x = 0;
                             var viewport_center_y = 0;
                             viewport_center_x = (_.toNumber(elBBox.left) + _.toNumber(elBBox.right) )/2;
                             viewport_center_y = (_.toNumber(elBBox.top) + _.toNumber(elBBox.bottom) )/2;
-                            // console.log("viewport_x",viewport_center_x,viewport_center_y);
                             pt = svg.createSVGPoint();
                             pt.x = viewport_center_x;
                             pt.y = viewport_center_y;
-                            // console.log("pt", pt.x, pt.y)
                             var svgP = pt.matrixTransform(svg.getScreenCTM().inverse());
-                            // console.log("svg points", svgP.x,svgP.y);
                             var new_x = svgP.x/ 2500;
                             var new_y = svgP.y/ 2500;
                             var location = self.getLocationData(val);
-                            // console.log("nex_x, y", new_x, new_y)
                             if(location !== null && location.el){
                                 location.x = new_x;
                                 location.y =  new_y;
@@ -325,10 +319,8 @@ $(document).ready(function(e){
                         }
                     }
                 });
-                // console.log("self", vm.self);
                 //find which levels need to be hidden
                 hidden_level = _.filter(self.data.levels , function (o){ 
-                    // console.log (o); 
                     return o.show !== true;
                 });
                 //doing it in a loop for future cases where there are more than two floors
