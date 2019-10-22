@@ -262,7 +262,7 @@
                     <!--    </div>-->
                     <!--</div> -->
                     <div class="right_feature_box">
-                        <p class="feature_label">SERVICE CONNECT</p>   
+                        <h2 class="feature_label">SERVICE CONNECT</h2>   
                         <div class="feature_box" id="feature_item_1">
                            <!-- <script id="feature_item_template_1" type="x-tmpl-mustache/text">-->
                              <!-- {%raw%}-->
@@ -274,7 +274,7 @@
                         </div>
                     </div>
                     <div class="right_feature_box">
-                        <p class="feature_label">NEW & EXCITING</p>   
+                        <h2 class="feature_label">NEW & EXCITING</h2>   
                         <div class="feature_box" id="feature_item">
                             <script id="feature_item_template" type="x-tmpl-mustache/text">
                                 {%raw%}
