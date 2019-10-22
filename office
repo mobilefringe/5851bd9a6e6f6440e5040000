@@ -83,9 +83,12 @@
                                         </a>
                                         {{/phone}}
                                     </span>
+                                    
+                                    {{#phone}}
                                     <span><a class="visible-xs-inline-block"  aria-label="Click to call {{name}}." href="tel:{{phone}}">
                                         <img ALT="Phone icon." src="//codecloud.cdn.speedyrails.net/sites/5851bd9a6e6f6440e5040000/image/png/1497038601000/icon_call_stores.png" />
                                     </a></span>
+                                    {{/phone}}
                                 </div>
                             </div>
                         </div>
