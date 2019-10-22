@@ -149,7 +149,7 @@
         </div>
         <div class="hidden-xs row-fluid">
 	  	    <div class="trim_screen nav_container" id="site_nav">              
-                <a id="centre_logo" href="/">
+                <a id="centre_logo" href="/home">
                     <img ALT="Spectrum Square logo." src="//codecloud.cdn.speedyrails.net/sites/5c9537226e6f640595370000/image/png/1536072593099/spectrum-square-logo.png"/>
                 </a>
                 <ul>                  
