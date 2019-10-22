@@ -82,7 +82,6 @@
                                     
                                     {{#phone}}
                                     <span class="store_phone hidden-xs">
-                                       
                                         <a href="tel:{{phone}}" aria-label="Click to call {{name}}.">
                                             {{phone}}
                                         </a>
