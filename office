@@ -58,7 +58,7 @@
                         <div class="store_list_content">
                             <div class="stores_table_headers" style="{{show}}">
                                 <a id="{{initial}}"></a>{{initial}}
-                                <a href="#top" class="pull-right"><span class="arrow-up" aria-hidden="true"></span>Go to Top</a>
+                                <a href="#top" class="pull-right"><span class="arrow-up"></span>Go to Top</a>
                             </div>
                             <div class="row">
                                 <div class="stores_row store_row_name col-sm-5 col-xs-6">
