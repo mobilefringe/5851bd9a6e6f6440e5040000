@@ -1,0 +1,44 @@
+<!--<div class="blogpost">-->
+<!--    <div id="post_container">-->
+<!--        <script id="post_template" type="x-tmpl-mustache/text">-->
+<!--            <h1>-->
+<!--                <a href="/posts" class="back_to">-->
+<!--                    <img src="//assets.mallmaverick.com/system/site_images/photos/000/000/769/original/back_btn.png?1381264220" />-->
+<!--                </a>-->
+<!--                {{title}}-->
+<!--            </h1>-->
+<!--            <p>{{publish_date}} + {{author}}</p>-->
+<!--            <img src="{{image_url}}" />-->
+                
+<!--            <p>{{{html_body}}}</p>-->
+<!--        </script>-->
+<!--    </div>-->
+    <!-- DISQUS start -->
+<!--    <div id="disqus_thread"></div>-->
+<!--    <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>-->
+    <!-- DISQUS end -->
+<!--</div>-->
+<!--<script>-->
+<!--$(document).ready(function(e) {-->
+<!--    init(e);-->
+<!--    function renderAll (){-->
+<!--        var blogs = getBlogList().sortBy(function(o){ return o.name });-->
+<!--        var pathArray = window.location.pathname.split( '/' );-->
+<!--        var slug = pathArray[pathArray.length-1];-->
+<!--        var post = getPublishedPostDetailsBySlug(slug);-->
+<!--        renderPostDetails("#post_container", "#post_template", post);-->
+        
+<!--        setTimeout(function() {-->
+<!--            show_content();-->
+<!--        }, 500);-->
+
+        <!--/* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */-->
+        <!--var disqus_shortname = ''; // required: replace example with your forum shortname-->
+        <!--/* * * DON'T EDIT BELOW THIS LINE * * */-->
+<!--        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;-->
+<!--        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';-->
+<!--        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);-->
+<!--    }-->
+<!--    loadMallDataCached(renderAll); -->
+<!--})-->
+<!--</script>-->
